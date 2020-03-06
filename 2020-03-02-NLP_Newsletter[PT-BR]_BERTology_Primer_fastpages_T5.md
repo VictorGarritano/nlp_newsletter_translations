@@ -156,23 +156,27 @@ O time de pesquisa da Microsoft liberou uma [biblioteca](https://github.com/micr
 \\
 <!-- Have you ever wanted to train your own language model from scratch but didn’t have enough resources to do so? If so, then Aditya Malte have you covered with this great [Colab notebook](https://gist.github.com/aditya-malte/2d4f896f471be9c38eb4d723a710768b#file-smallberta_pretraining-ipynb) that teaches you how to train an LM from scratch with a smaller dataset. -->
 
-Você já pensou em treinar o seu próprio modelo de linguagem do zero, mas nunca teve o poder computacional necessário para isso? Se sim, então o Aditya Malte pode lhe ajudar com essa excelente [notebook no Colab](https://gist.github.com/aditya-malte/2d4f896f471be9c38eb4d723a710768b#file-smallberta_pretraining-ipynb) que exemplifica o processo de treinamento do modelo de linguagem numa base de dados reduzida.
+Você já pensou em treinar o seu próprio modelo de linguagem do zero, mas nunca teve o poder computacional necessário para isso? Se já, então o Aditya Malte pode lhe ajudar com essa excelente [notebook no Colab](https://gist.github.com/aditya-malte/2d4f896f471be9c38eb4d723a710768b#file-smallberta_pretraining-ipynb) que exemplifica o processo de treinamento do modelo de linguagem numa base de dados reduzida.
 
-# Ethics in AI 🚨
+# Ética em IA 🚨
 
 ***Why faces don’t always tell the truth about feelings***
 
 \\
-For some time now, many researchers and companies have attempted to build AI models that understand and can recognize emotions either in the textual or visual context. A new [article](https://www.nature.com/articles/d41586-020-00507-5) reopens the debate that AI techniques that aim to recognize emotion directly from face images are not doing it right. The main argument, raised by prominent psychologists in the space, is that there is no evidence of universal expressions that can be used for emotion detection from face images alone. It would take a model better understanding of personality traits, body movement, among other things to really get closer to more accurately detecting the emotions displayed by humans.
+
+Há algum tempo, diversos pesquisadores e empresas tentar construir modelos de IA que conseguissem entender e reconhecer emoções em contextos visuais ou textuais. Um novo [artigo](https://www.nature.com/articles/d41586-020-00507-5) reabre o debate que técnicas de IA que tentam reconhecer emoções diretamente de imagens faciais não estão fazendo seu trabalho direito. O argumento principal, formulado por psicólogos proeminentes na área, é que não existe evidência da existência de expressões universais que possam ser utilizadas na detecção de emoções de maneira independente. Seria necessária uma melhor compreensão de traços de personalidade e movimentos corporais por parte do modelo, dentre outras características, para que seja possível detectar as emoções humanas de maneira mais precisa.  
+
+<!-- For some time now, many researchers and companies have attempted to build AI models that understand and can recognize emotions either in the textual or visual context. A new [article](https://www.nature.com/articles/d41586-020-00507-5) reopens the debate that AI techniques that aim to recognize emotion directly from face images are not doing it right. The main argument, raised by prominent psychologists in the space, is that there is no evidence of universal expressions that can be used for emotion detection from face images alone. It would take a model better understanding of personality traits, body movement, among other things to really get closer to more accurately detecting the emotions displayed by humans. -->
 
 \\
 ***Differential Privacy and Federated Learning Explained***
 
 \\
-One of the ethical considerations when building AI systems is to ensure privacy. Currently, this can be achieved in two ways, either using differential privacy or federated learning. If you want to know more about these topics, Jordan Harrod provides us a great introduction in this [video](https://www.youtube.com/watch?v=MOcTGM_UteM) which also includes a hands-on practice session with the use of a Colab notebook.
+<!-- One of the ethical considerations when building AI systems is to ensure privacy. Currently, this can be achieved in two ways, either using differential privacy or federated learning. If you want to know more about these topics, Jordan Harrod provides us a great introduction in this [video](https://www.youtube.com/watch?v=MOcTGM_UteM) which also includes a hands-on practice session with the use of a Colab notebook. -->
 
+Uma das considerações éticas que devem ser levadas em consideração durante a construção de sistemas de IA é a garantia de privacidade. Atualmente, essa garantia pode ser obtida de duas maneiras: através da *differential privacy* ou do *federated learning*. Se você quiser saber mais sobre esses dois tópicos, Jordan Harrod produziu uma excelente introdução nesse [vídeo](https://www.youtube.com/watch?v=MOcTGM_UteM), que inclui um sessão *hands-on* utilizando *notebooks* do Colab.
 
-# Articles and Blog posts ✍️
+# Artigos e Postagens ✍️
 
 ***A Deep Dive into the Reformer***
 
