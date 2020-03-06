@@ -232,7 +232,7 @@ A técnica de *self-supervised learning* foi amplamente discutida nas edições 
 <!-- Self-supervised has been discussed a lot in previous issues of the NLP Newsletter due to the role it has played in modern techniques for language modeling. This [blog post](https://datasciencecastnet.home.blog/2020/02/22/self-supervised-learning-with-image%e7%bd%91/) by Jonathan Whitaker provides a nice and intuitive explanation of self-supervision in the context of images. If you are really interested in the topic, Amit Chaudhary also wrote an excellent [blog post](https://amitness.com/2020/02/illustrated-self-supervised-learning/) describing the concept in a visual way. -->
 
 
-# Education 🎓
+# Educação 🎓
 
 ***Stanford CS330: Deep Multi-Task and Meta-Learning***
 
@@ -298,25 +298,39 @@ Sashs Rush compartilhou um [notebook impressionante](http://Visualizing%20Adapti
 <!-- *Visualizing probability distribution of a softmax output* -->
 
 
-# Noteworthy Mentions ⭐️
+# Menções Honrosas ⭐️
 
-You can access the previous issue of the 🗞 NLP Newsletter [here](https://medium.com/dair-ai/nlp-newsletter-the-annotated-gpt-2-understanding-self-distillation-haiku-ganilla-sparkwiki-b0f47f595c82).
+<!-- You can access the previous issue of the 🗞 NLP Newsletter [here](https://medium.com/dair-ai/nlp-newsletter-the-annotated-gpt-2-understanding-self-distillation-haiku-ganilla-sparkwiki-b0f47f595c82). -->
 
-\\
-Conor Bell wrote this nice [python script](https://gist.github.com/connorbell/9269401d127f1e507cc9aaf2803067c4) that allows you to view and prepare a dataset that can be used for a StyleGAN model.
-
-\\
-Manu Romero [contributes](https://github.com/huggingface/transformers/tree/master/model_cards/mrm8488/bert-spanish-cased-finetuned-pos) a fine-tuned POS model for Spanish. The model is available for use in the Hugging Face Transformer library. It will be interesting to see this effort in other languages.
+Você pode conferir a edição da passada da 🗞 Newsletter [aqui](https://medium.com/dair-ai/nlp-newsletter-the-annotated-gpt-2-understanding-self-distillation-haiku-ganilla-sparkwiki-b0f47f595c82).
 
 \\
-This [repo](https://github.com/tomohideshibata/BERT-related-papers) contains a long list of carefully curated BERT-related papers that approach different problems such as model compression, domain-specific, multi-model, generation, downstream tasks, etc.
+<!-- Conor Bell wrote this nice [python script](https://gist.github.com/connorbell/9269401d127f1e507cc9aaf2803067c4) that allows you to view and prepare a dataset that can be used for a StyleGAN model. -->
+
+Conor Bell escreveu esse [script em Python](https://gist.github.com/connorbell/9269401d127f1e507cc9aaf2803067c4) que permite a visualização e preparação de uma base de dados que pode ser utilizada para o modelo StyleGAN.
 
 \\
-Connor Shorten published a short [15-minute video](https://www.youtube.com/watch?time_continue=79&v=-Bh_7tzyoR4&feature=emb_logo) explaining a new general framework that aims to reduce the effect of “shortcut” features in self-supervised representation learning. This is important because if not done right, the model can fail to learn useful semantic representations and potentially prove ineffective in a transfer learning setting.
+<!-- Manu Romero [contributes](https://github.com/huggingface/transformers/tree/master/model_cards/mrm8488/bert-spanish-cased-finetuned-pos) a fine-tuned POS model for Spanish. The model is available for use in the Hugging Face Transformer library. It will be interesting to see this effort in other languages. -->
+
+Manu Romero [compartilhou](https://github.com/huggingface/transformers/tree/master/model_cards/mrm8488/bert-spanish-cased-finetuned-pos) um modelo de POS tagging para o espanhol. O modelo está disponível para uso utilizando a biblioteca de *Transformers* da Hugging Face. Será interessante acompanhar a divulgação de modelos para outros idiomas.
 
 \\
-Sebastian Ruder published a new issue of the NLP News newsletter that highlights topics and resources that range from an analysis of NLP and ML papers in 2019 to slides for learning about transfer learning and deep learning essentials. Check it out [here](http://newsletter.ruder.io/issues/accelerating-science-memorizing-vs-learning-to-look-things-up-schmidhuber-s-2010s-greek-bert-arc-illustrated-reformer-annotated-gpt-2-olmpics-223195).
+
+Esse [repositório](https://github.com/tomohideshibata/BERT-related-papers) contém uma extensa lista de artigos, cuidadosamente selecionados, que possuem relação com o BERT e que abordam diversos problemas como compressão de modelos, tarefas de domínios específicos, entre outras.
+
+<!-- This [repo](https://github.com/tomohideshibata/BERT-related-papers) contains a long list of carefully curated BERT-related papers that approach different problems such as model compression, domain-specific, multi-model, generation, downstream tasks, etc. -->
+
+\\
+<!-- Connor Shorten published a short [15-minute video](https://www.youtube.com/watch?time_continue=79&v=-Bh_7tzyoR4&feature=emb_logo) explaining a new general framework that aims to reduce the effect of “shortcut” features in self-supervised representation learning. This is important because if not done right, the model can fail to learn useful semantic representations and potentially prove ineffective in a transfer learning setting. -->
+
+Connor Shorten publicou um [vídeo de 15 minutos](https://www.youtube.com/watch?time_continue=79&v=-Bh_7tzyoR4&feature=emb_logo) explicando um novo *framework* que busca reduzir o efeito das *"shortcut" features* no *self-supervised representation learning*. Essa é uma tarefa importante porquê, caso não seja realizada corretamente, o modelo pode falhar em aprender representações semânticas úteis e potencialmente se tornar ineficiente para o *transfer learning*
+
+\\
+
+Sebastian Ruder publicou uma nova edição da newsletter *NLP News* que apresenta tópicos e recursos como análises de artigos de ML e NLP em 2019, e apresentações sobre os fundamentos do *Deep Learning* e *Transfer Learning*. Confira [aqui](http://newsletter.ruder.io/issues/accelerating-science-memorizing-vs-learning-to-look-things-up-schmidhuber-s-2010s-greek-bert-arc-illustrated-reformer-annotated-gpt-2-olmpics-223195).
+
+<!-- Sebastian Ruder published a new issue of the NLP News newsletter that highlights topics and resources that range from an analysis of NLP and ML papers in 2019 to slides for learning about transfer learning and deep learning essentials. Check it out [here](http://newsletter.ruder.io/issues/accelerating-science-memorizing-vs-learning-to-look-things-up-schmidhuber-s-2010s-greek-bert-arc-illustrated-reformer-annotated-gpt-2-olmpics-223195). -->
 
 
 \\
-[*Subscribe*](https://dair.ai/newsletter/) *🔖 to the NLP Newsletter to receive future issues in your inbox.*
+[*Inscreva-se*](https://dair.ai/newsletter/) *🔖 para receber as próximas edições na sua caixa de entrada!*
