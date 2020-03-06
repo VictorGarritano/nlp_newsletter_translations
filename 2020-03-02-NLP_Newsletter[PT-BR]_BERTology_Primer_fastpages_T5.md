@@ -169,7 +169,7 @@ Há algum tempo, diversos pesquisadores e empresas tentar construir modelos de I
 <!-- For some time now, many researchers and companies have attempted to build AI models that understand and can recognize emotions either in the textual or visual context. A new [article](https://www.nature.com/articles/d41586-020-00507-5) reopens the debate that AI techniques that aim to recognize emotion directly from face images are not doing it right. The main argument, raised by prominent psychologists in the space, is that there is no evidence of universal expressions that can be used for emotion detection from face images alone. It would take a model better understanding of personality traits, body movement, among other things to really get closer to more accurately detecting the emotions displayed by humans. -->
 
 \\
-***Differential Privacy and Federated Learning Explained***
+***Differential Privacy and Federated Learning Explicadas***
 
 \\
 <!-- One of the ethical considerations when building AI systems is to ensure privacy. Currently, this can be achieved in two ways, either using differential privacy or federated learning. If you want to know more about these topics, Jordan Harrod provides us a great introduction in this [video](https://www.youtube.com/watch?v=MOcTGM_UteM) which also includes a hands-on practice session with the use of a Colab notebook. -->
@@ -181,16 +181,20 @@ Uma das considerações éticas que devem ser levadas em consideração durante 
 ***A Deep Dive into the Reformer***
 
 \\
-Madison May wrote a [new blog post](https://www.pragmatic.ml/reformer-deep-dive/) that provides a deep dive into [Reformer](https://ai.googleblog.com/2020/01/reformer-efficient-transformer.html), which is a new and improved Transformer-based model recently proposed by Google AI. We also featured Reformer in a [previous issue](https://medium.com/dair-ai/nlp-newsletter-reformer-deepmath-electra-tinybert-for-search-vizseq-open-sourcing-ml-68d5b6eed057) of the newsletter.
+<!-- Madison May wrote a [new blog post](https://www.pragmatic.ml/reformer-deep-dive/) that provides a deep dive into [Reformer](https://ai.googleblog.com/2020/01/reformer-efficient-transformer.html), which is a new and improved Transformer-based model recently proposed by Google AI. We also featured Reformer in a [previous issue](https://medium.com/dair-ai/nlp-newsletter-reformer-deepmath-electra-tinybert-for-search-vizseq-open-sourcing-ml-68d5b6eed057) of the newsletter. -->
+
+Madison May realizou uma [postagem](https://www.pragmatic.ml/reformer-deep-dive/) em seu *blog* que fornece uma análise mais profunda do [Reformer](https://ai.googleblog.com/2020/01/reformer-efficient-transformer.html), um novo modelo baseado no *Transformer* proposto recentemente pela Google AI. O *Reformer* já havia aparecido numa [edição anterior](https://medium.com/dair-ai/nlp-newsletter-reformer-deepmath-electra-tinybert-for-search-vizseq-open-sourcing-ml-68d5b6eed057) da Newsletter.
 
 \\
-***A free blogging platform***
+***Uma plataforma de blogs gratuita***
 
 \\
-[fastpages](https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html) allows you to automatically set up a blog using GitHub pages for free. This solution simplifies the process of publishing a blog and it also supports the use of exported word documents and Jupyter notebooks.
+A [fastpages](https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html) permite a criação e configuração automática de um *blog* utilizando a *GitHub pages* de maneira gratuita. Essa solução simplifica o processo de publicação e também oferece suporte à utilização de documentos exportados e *Jupyter notebooks*.
+
+<!-- allows you to automatically set up a blog using GitHub pages for free. This solution simplifies the process of publishing a blog and it also supports the use of exported word documents and Jupyter notebooks. -->
 
 \\
-***Tips for interviewing at Google***
+***Dicas para entrevistas na Google***
 
 \\
 Pablo Castro, from the Google Brain team, published an [excellent blog post](https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html) highlighting a list of tips for those interested in interviewing for a job at Google. Topics include advice on how to prepare for the interview, what to expect during the interview, and what happens after the interview.
