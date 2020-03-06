@@ -89,25 +89,30 @@ Pesquisadores e colaboradores da reciTAL publicaram um trabalho que busca respon
 [*(Scialom et al. 2020)*](https://arxiv.org/abs/2002.10832)
 
 
-# Creativity and Society 🎨
+# Criatividade e Sociedade 🎨
 
 ***The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence***
 
 \\
-Gary Marcus recently published a [paper](https://arxiv.org/abs/2002.06177) where he explains a series of steps that, in his view, we should be taking to build more robust AI systems. Gary’s central idea in this paper is to focus on building hybrid and knowledge-driven systems guided by cognitive models as opposed to focusing on building larger systems that require more data and computation power.
+<!-- Gary Marcus recently published a [paper](https://arxiv.org/abs/2002.06177) where he explains a series of steps that, in his view, we should be taking to build more robust AI systems. Gary’s central idea in this paper is to focus on building hybrid and knowledge-driven systems guided by cognitive models as opposed to focusing on building larger systems that require more data and computation power. -->
+
+Gary Marcus publicou recentemente um [trabalho](https://arxiv.org/abs/2002.06177) onde ele explica a série de passos que, na opinião dele, nós devemos seguir para construir sistemas de IA mais robustos. A ideia central do artigo é priorizar a construção de sistemas híbridos e orientados à conhecimento, guiados por modelos cognitivos, ao invés da proposição de modelos com mais parâmetros que exigem mais dados e poder computacional.
 
 \\
 ***10 Breakthrough Technologies 2020***
 
 \\
-MIT Technology Review published a list of the [10 breakthroughs](https://www.technologyreview.com/lists/technologies/2020/) they have identified that will make a difference in solving problems that could change the way we live and work. The list — in no particular order — includes unhackable internet, hyper-personalized medicine, digital money, anti-aging drugs, AI-discovered molecules, satellite mega-constellations, quantum supremacy, Tiny AI, differential privacy, and climate attribution.
+<!-- MIT Technology Review published a list of the [10 breakthroughs](https://www.technologyreview.com/lists/technologies/2020/) they have identified that will make a difference in solving problems that could change the way we live and work. The list — in no particular order — includes unhackable internet, hyper-personalized medicine, digital money, anti-aging drugs, AI-discovered molecules, satellite mega-constellations, quantum supremacy, Tiny AI, differential privacy, and climate attribution. -->
+
+A revista *MIT Technology Review* publicou a lista dos [10 avanços](https://www.technologyreview.com/lists/technologies/2020/) da tecnologia identificados por eles que farão a diferença na resolução de problemas que podem mudar a maneira como vivemos e trabalhamos. A lista — sem ordem específica — inclui a internet *não-hackável*, medicina hiper-personalizada, moedas digitais, medicamentos anti-idade, moléculas descobertas por sistemas de IA, mega-constelações de satélites artificias, supremacia quântica, IA em aparelhos celulares, privacidade diferencial e *climate attribution*. 
 
 \\
 ***Time to rethink the publication process in machine learning***
 
 \\
-Yoshua Bengio recently [wrote](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/) on his concerns about the fast-paced cycles of ML publications. The main concern is that due to the velocity of publishing, a lot of papers get published that contain errors and are just incremental, whereas spending more time and ensuring rigour, which is how it used to work many years ago, seems to be vanishing. On top of it all, students are the ones that have to deal with the negative consequences of this pressure and stress. To address the situation, Bengio talks about his actions to help in the process of slowing down research publications for the good of science.
+<!-- Yoshua Bengio recently [wrote](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/) on his concerns about the fast-paced cycles of ML publications. The main concern is that due to the velocity of publishing, a lot of papers get published that contain errors and are just incremental, whereas spending more time and ensuring rigour, which is how it used to work many years ago, seems to be vanishing. On top of it all, students are the ones that have to deal with the negative consequences of this pressure and stress. To address the situation, Bengio talks about his actions to help in the process of slowing down research publications for the good of science. -->
 
+Yoshua Bengio [escreveu](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/) recentemente sobre suas preocupações em relações aos atuais acelerados ciclos de publicações em Aprendizado de Máquina. O ponto principal é que, por causa da velocidade das publicações, diversos trabalhos publicados apresentam erros e são apenas incrementais, enquanto o investimento de tempo na revisão e verificação do rigor empregado na metodologia e experimentos vem sendo deixado de lado. Diante de tudo isso, os estudantes são aqueles que necessita lidar com as consequências negativas da pressão e estresse gerados por essa situação. Com o objetivo de solucionar esse problema, Bengio compartilha suas ações para ajudar no processo de desaceleração de publicações para o bem da ciência.
 
 # Tools and Datasets ⚙️
 
