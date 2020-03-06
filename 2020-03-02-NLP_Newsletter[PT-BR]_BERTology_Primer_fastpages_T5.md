@@ -4,9 +4,7 @@ title: "NLP Newsletter [PT-BR] #6: BERTology Primer, fastpages, T5, Data Science
 author: VictorGarritano
 modified:
 comments: true
-excerpt: "This issue covers topics that range from extending the Transformer model to slowing publication in ML to a series of ML and NLP books and project releases."
-
-"Essa edição cobre tópicos como extensões ao modelo Transformer, desaceleração no processo de publicação em Aprendizado de Máquina, divulgação de livros e projetos sobre ML e NLP e muito mais"
+excerpt: "Essa edição cobre tópicos como extensões ao modelo Transformer, desaceleração no processo de publicação em Aprendizado de Máquina, divulgação de livros e projetos sobre ML e NLP e muito mais"
 
 tags: [nlp_newsletter]
 image:
