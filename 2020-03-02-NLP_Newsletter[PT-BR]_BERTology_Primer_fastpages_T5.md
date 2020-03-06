@@ -112,42 +112,51 @@ A revista *MIT Technology Review* publicou a lista dos [10 avanços](https://www
 \\
 <!-- Yoshua Bengio recently [wrote](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/) on his concerns about the fast-paced cycles of ML publications. The main concern is that due to the velocity of publishing, a lot of papers get published that contain errors and are just incremental, whereas spending more time and ensuring rigour, which is how it used to work many years ago, seems to be vanishing. On top of it all, students are the ones that have to deal with the negative consequences of this pressure and stress. To address the situation, Bengio talks about his actions to help in the process of slowing down research publications for the good of science. -->
 
-Yoshua Bengio [escreveu](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/) recentemente sobre suas preocupações em relações aos atuais acelerados ciclos de publicações em Aprendizado de Máquina. O ponto principal é que, por causa da velocidade das publicações, diversos trabalhos publicados apresentam erros e são apenas incrementais, enquanto o investimento de tempo na revisão e verificação do rigor empregado na metodologia e experimentos vem sendo deixado de lado. Diante de tudo isso, os estudantes são aqueles que necessita lidar com as consequências negativas da pressão e estresse gerados por essa situação. Com o objetivo de solucionar esse problema, Bengio compartilha suas ações para ajudar no processo de desaceleração de publicações para o bem da ciência.
+Yoshua Bengio [escreveu](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/) recentemente sobre suas preocupações em relação aos atuais acelerados ciclos de publicações em Aprendizado de Máquina. O ponto principal é que, por causa da velocidade das publicações, diversos trabalhos publicados apresentam erros e são apenas incrementais, enquanto o investimento de tempo na revisão e verificação do rigor empregado na metodologia e experimentos vem sendo deixado de lado. Diante de tudo isso, os estudantes são aqueles que necessita lidar com as consequências negativas da pressão e estresse gerados por essa situação. Com o objetivo de solucionar esse problema, Bengio compartilha suas ações para ajudar no processo de desaceleração de publicações para o bem da ciência.
 
-# Tools and Datasets ⚙️
+# Ferramentas e Bases de Dados ⚙️
 
-***PointerGenerator network implementation in AllenNLP***
+***Implementação da PointerGenerator network com a AllenNLP***
 
 \\
-Pointer-Generator networks aim to augment sequence-to-sequence attentional models that are used to [improve](https://arxiv.org/abs/1704.04368) [*abstractive summarization*](https://arxiv.org/abs/1704.04368). If you wish to use this technique for abstractive summarization using AllenNLP, Kundan Krishna has developed a [library](https://github.com/kukrishna/pointer-generator-pytorch-allennlp) that allows you to run a pretrained model (provided) or train your own model.
+<!-- Pointer-Generator networks aim to augment sequence-to-sequence attentional models that are used to [improve](https://arxiv.org/abs/1704.04368) [*abstractive summarization*](https://arxiv.org/abs/1704.04368). If you wish to use this technique for abstractive summarization using AllenNLP, Kundan Krishna has developed a [library](https://github.com/kukrishna/pointer-generator-pytorch-allennlp) that allows you to run a pretrained model (provided) or train your own model. -->
+
+Redes *Pointer-Generator* buscam aprimorar o mecanismo de atenção de modelos *sequence-to-sequence* e são utilizadas para [melhorar o desempenho](https://arxiv.org/abs/1704.04368) em tarefas como [sumarização abstrata](https://arxiv.org/abs/1704.04368). Se você gostaria de utilizar essa técnica nessa tarefa utilizando a *framework* AllenNLP, saiba que o Kundan Krishna desenvolveu um [módulo](https://github.com/kukrishna/pointer-generator-pytorch-allennlp) que permite a execução de um modelo pré-treinado dessa categoria, ou o treinamento de um novo modelo do zero.
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*Fa4G6BrnJm3NSDr3TDHhfw.jpeg)
 
 \\
-***Question answering for different languages***
+***Question answering para diferentes idiomas***
 
 \\
-With the proliferation of Transformer models and their effectiveness for large-scale NLP tasks performed in other languages, there has been an impressive amount of effort to release different types of datasets in different languages. For instance, Sebastian Ruder [shared](https://twitter.com/seb_ruder/status/1231713840502657025?s=20) a list of datasets that can be used for question answering research in different languages: [DuReader](https://www.aclweb.org/anthology/W18-2605/), [KorQuAD](https://arxiv.org/abs/1909.07005), [SberQuAD](https://arxiv.org/abs/1912.09723), [FQuAD](https://arxiv.org/abs/2002.06071), [Arabic-SQuAD](https://arxiv.org/abs/1906.05394), [SQuAD-it](https://github.com/crux82/squad-it), and [Spanish SQuAD](https://arxiv.org/abs/1912.05200v2).
+<!-- With the proliferation of Transformer models and their effectiveness for large-scale NLP tasks performed in other languages, there has been an impressive amount of effort to release different types of datasets in different languages. For instance, Sebastian Ruder [shared](https://twitter.com/seb_ruder/status/1231713840502657025?s=20) a list of datasets that can be used for question answering research in different languages: [DuReader](https://www.aclweb.org/anthology/W18-2605/), [KorQuAD](https://arxiv.org/abs/1909.07005), [SberQuAD](https://arxiv.org/abs/1912.09723), [FQuAD](https://arxiv.org/abs/2002.06071), [Arabic-SQuAD](https://arxiv.org/abs/1906.05394), [SQuAD-it](https://github.com/crux82/squad-it), and [Spanish SQuAD](https://arxiv.org/abs/1912.05200v2). -->
+
+Com a disseminação de modelos baseados no *Transformer* e sua efetividade em tarefas de NLP aplicadas a outros idiomas, existe um esforço significativo na construção e liberação de diferentes bases de dados em diferentes idiomas. Por exemplo, o Sebastian Ruder [compartilhou](https://twitter.com/seb_ruder/status/1231713840502657025?s=20) uma lista de *datasets* que podem ser utilizados no desenvolvimento de métodos para *question answering* em diversas línguas: DuReader](https://www.aclweb.org/anthology/W18-2605/), [KorQuAD](https://arxiv.org/abs/1909.07005), [SberQuAD](https://arxiv.org/abs/1912.09723), [FQuAD](https://arxiv.org/abs/2002.06071), [Arabic-SQuAD](https://arxiv.org/abs/1906.05394), [SQuAD-it](https://github.com/crux82/squad-it) e [Spanish SQuAD](https://arxiv.org/abs/1912.05200v2).
 
 \\
 ***PyTorch Lightning***
 
 \\
-PyTorch Lightning is a [tool](https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09) that allows you to abstract training that could require setting up GPU/TPU training and the use of 16-bit precision. Getting those things to work can become tedious but the great news is that PyTorch Lightning simplifies this process and allows you to train models on multi GPUs and TPUs without the need to change your current PyTorch code.
+<!-- PyTorch Lightning is a [tool](https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09) that allows you to abstract training that could require setting up GPU/TPU training and the use of 16-bit precision. Getting those things to work can become tedious but the great news is that PyTorch Lightning simplifies this process and allows you to train models on multi GPUs and TPUs without the need to change your current PyTorch code. -->
+
+A PyTorch Lightning é uma [ferramenta](https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09) que possibilita a abstração da escolha do dispositivo a ser utilizado durante o treinamento (CPU ou GPU), além do uso de precisão de 16 bits. Fazer essas configurações funcionarem pode ser um trabalho entediante, mas felizmente os colaboradores do PyTorch Lightning simplificaram esse processo, permitindo o treinamento de modelos em várias GPUs/TPUs sem a necessidade de alteração do código.
 
 \\
-***Graph Neural Networks in TF2***
+***Graph Neural Networks no TF2***
 
 \\
-A Microsoft Research team releases a [library](https://github.com/microsoft/tf2-gnn) that provides access to implementations of many different graph neural network (GNN) architectures. This library is based on TensorFlow 2 and also provides data-wrangling modules that can directly be used in training/evaluation loops.
+<!-- A Microsoft Research team releases a [library](https://github.com/microsoft/tf2-gnn) that provides access to implementations of many different graph neural network (GNN) architectures. This library is based on TensorFlow 2 and also provides data-wrangling modules that can directly be used in training/evaluation loops. -->
+
+O time de pesquisa da Microsoft liberou uma [biblioteca](https://github.com/microsoft/tf2-gnn) com implementação de diversas arquiteturas de *Graph Neural Networks (GNNs)*. A biblioteca, baseada na versão 2.0 do TensorFlow, fornece funcionalidades para manipulação de dados que podem ser utilizadas diretamente durante as iterações de treino/avaliação. 
 
 \\
 ***Pre-training SmallBERTa — A tiny model to train on a tiny dataset***
 
 \\
-Have you ever wanted to train your own language model from scratch but didn’t have enough resources to do so? If so, then Aditya Malte have you covered with this great [Colab notebook](https://gist.github.com/aditya-malte/2d4f896f471be9c38eb4d723a710768b#file-smallberta_pretraining-ipynb) that teaches you how to train an LM from scratch with a smaller dataset.
+<!-- Have you ever wanted to train your own language model from scratch but didn’t have enough resources to do so? If so, then Aditya Malte have you covered with this great [Colab notebook](https://gist.github.com/aditya-malte/2d4f896f471be9c38eb4d723a710768b#file-smallberta_pretraining-ipynb) that teaches you how to train an LM from scratch with a smaller dataset. -->
 
+Você já pensou em treinar o seu próprio modelo de linguagem do zero, mas nunca teve o poder computacional necessário para isso? Se sim, então o Aditya Malte pode lhe ajudar com essa excelente [notebook no Colab](https://gist.github.com/aditya-malte/2d4f896f471be9c38eb4d723a710768b#file-smallberta_pretraining-ipynb) que exemplifica o processo de treinamento do modelo de linguagem numa base de dados reduzida.
 
 # Ethics in AI 🚨
 
