@@ -104,7 +104,7 @@ Gary Marcus publicou recentemente um [trabalho](https://arxiv.org/abs/2002.06177
 \\
 <!-- MIT Technology Review published a list of the [10 breakthroughs](https://www.technologyreview.com/lists/technologies/2020/) they have identified that will make a difference in solving problems that could change the way we live and work. The list — in no particular order — includes unhackable internet, hyper-personalized medicine, digital money, anti-aging drugs, AI-discovered molecules, satellite mega-constellations, quantum supremacy, Tiny AI, differential privacy, and climate attribution. -->
 
-A revista *MIT Technology Review* publicou a lista dos [10 avanços](https://www.technologyreview.com/lists/technologies/2020/) da tecnologia identificados por eles que farão a diferença na resolução de problemas que podem mudar a maneira como vivemos e trabalhamos. A lista — sem ordem específica — inclui a internet *não-hackável*, medicina hiper-personalizada, moedas digitais, medicamentos anti-idade, moléculas descobertas por sistemas de IA, mega-constelações de satélites artificias, supremacia quântica, IA em aparelhos celulares, privacidade diferencial e *climate attribution*. 
+A revista *MIT Technology Review* publicou a lista dos [10 avanços](https://www.technologyreview.com/lists/technologies/2020/) da tecnologia identificados por eles que farão a diferença na resolução de problemas que podem mudar a maneira como vivemos e trabalhamos. A lista — sem ordem específica — inclui a internet *não-hackável*, medicina hiper-personalizada, moedas digitais, medicamentos anti-idade, moléculas descobertas por sistemas de IA, mega-constelações de satélites artificias, supremacia quântica, IA em aparelhos celulares, privacidade diferencial e *climate attribution*.
 
 \\
 ***Time to rethink the publication process in machine learning***
@@ -148,7 +148,7 @@ A PyTorch Lightning é uma [ferramenta](https://towardsdatascience.com/from-pyto
 \\
 <!-- A Microsoft Research team releases a [library](https://github.com/microsoft/tf2-gnn) that provides access to implementations of many different graph neural network (GNN) architectures. This library is based on TensorFlow 2 and also provides data-wrangling modules that can directly be used in training/evaluation loops. -->
 
-O time de pesquisa da Microsoft liberou uma [biblioteca](https://github.com/microsoft/tf2-gnn) com implementação de diversas arquiteturas de *Graph Neural Networks (GNNs)*. A biblioteca, baseada na versão 2.0 do TensorFlow, fornece funcionalidades para manipulação de dados que podem ser utilizadas diretamente durante as iterações de treino/avaliação. 
+O time de pesquisa da Microsoft liberou uma [biblioteca](https://github.com/microsoft/tf2-gnn) com implementação de diversas arquiteturas de *Graph Neural Networks (GNNs)*. A biblioteca, baseada na versão 2.0 do TensorFlow, fornece funcionalidades para manipulação de dados que podem ser utilizadas diretamente durante as iterações de treino/avaliação.
 
 \\
 ***Pre-training SmallBERTa — A tiny model to train on a tiny dataset***
@@ -164,7 +164,7 @@ Você já pensou em treinar o seu próprio modelo de linguagem do zero, mas nunc
 
 \\
 
-Há algum tempo, diversos pesquisadores e empresas tentar construir modelos de IA que conseguissem entender e reconhecer emoções em contextos visuais ou textuais. Um novo [artigo](https://www.nature.com/articles/d41586-020-00507-5) reabre o debate que técnicas de IA que tentam reconhecer emoções diretamente de imagens faciais não estão fazendo seu trabalho direito. O argumento principal, formulado por psicólogos proeminentes na área, é que não existe evidência da existência de expressões universais que possam ser utilizadas na detecção de emoções de maneira independente. Seria necessária uma melhor compreensão de traços de personalidade e movimentos corporais por parte do modelo, dentre outras características, para que seja possível detectar as emoções humanas de maneira mais precisa.  
+Há algum tempo, diversos pesquisadores e empresas tentar construir modelos de IA que conseguissem entender e reconhecer emoções em contextos visuais ou textuais. Um novo [artigo](https://www.nature.com/articles/d41586-020-00507-5) reabre o debate que técnicas de IA que tentam reconhecer emoções diretamente de imagens faciais não estão fazendo seu trabalho direito. O argumento principal, formulado por psicólogos proeminentes na área, é que não existe evidência da existência de expressões universais que possam ser utilizadas na detecção de emoções de maneira independente. Seria necessária uma melhor compreensão de traços de personalidade e movimentos corporais por parte do modelo, dentre outras características, para que seja possível detectar as emoções humanas de maneira mais precisa.
 
 <!-- For some time now, many researchers and companies have attempted to build AI models that understand and can recognize emotions either in the textual or visual context. A new [article](https://www.nature.com/articles/d41586-020-00507-5) reopens the debate that AI techniques that aim to recognize emotion directly from face images are not doing it right. The main argument, raised by prominent psychologists in the space, is that there is no evidence of universal expressions that can be used for emotion detection from face images alone. It would take a model better understanding of personality traits, body movement, among other things to really get closer to more accurately detecting the emotions displayed by humans. -->
 
@@ -197,30 +197,39 @@ A [fastpages](https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing
 ***Dicas para entrevistas na Google***
 
 \\
-Pablo Castro, from the Google Brain team, published an [excellent blog post](https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html) highlighting a list of tips for those interested in interviewing for a job at Google. Topics include advice on how to prepare for the interview, what to expect during the interview, and what happens after the interview.
+<!-- Pablo Castro, from the Google Brain team, published an [excellent blog post](https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html) highlighting a list of tips for those interested in interviewing for a job at Google. Topics include advice on how to prepare for the interview, what to expect during the interview, and what happens after the interview. -->
+
+Pablo Castro, do time da Google Brain, publicou uma [excelente postagem](https://psc-g.github.io/interviews/google/2020/02/25/interviewing-at-google.html) destacando as principais dicas para aqueles interessados em aplicar para uma posição na Google. Os tópicos abordados incluem dicas sobre o processo de entrevistas, como preparação, o que esperar durante e o que acontece depois das entrevistas.
 
 \\
 ***Transformers are Graph Neural Networks***
 
 \\
-Both graph neural networks (GNNs) and Transformers have shown to be effective at different NLP tasks. To better understand the inner workings behind these approaches and how they relate, Chaitanya Joshi wrote a great [article](https://graphdeeplearning.github.io/post/transformers-are-gnns/) explaining the connection between GNNs and Transformers and different ways these methods can be combined in a sort of hybrid model.
+<!-- Both graph neural networks (GNNs) and Transformers have shown to be effective at different NLP tasks. To better understand the inner workings behind these approaches and how they relate, Chaitanya Joshi wrote a great [article](https://graphdeeplearning.github.io/post/transformers-are-gnns/) explaining the connection between GNNs and Transformers and different ways these methods can be combined in a sort of hybrid model. -->
+
+*Graph Neural Networks (GNNs)* e *Transformers* mostraram-se bastante efetivos em diversas tarefas de NLP. Com o objetivo de compreender melhor o funcionamento interno dessas arquiteturas e como elas se relacionam, Chaitanya Joshi escreveu um excelente [artigo](https://graphdeeplearning.github.io/post/transformers-are-gnns/) em seu *blog*, evidenciando a conexão entre GNNs e *Transformers* e as diversas maneiras pelas quais esses métodos podem ser combinados e utilizados em conjunto.
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*u-BkejfKSKcnWOBx.jpg)
 
-*Representing a sentence as a fully-connected word graph —* [*source*](https://graphdeeplearning.github.io/post/transformers-are-gnns/)
+*Representação de uma frase como um grafo completo de palavras —* [*fonte*](https://graphdeeplearning.github.io/post/transformers-are-gnns/)
 
 \\
-***CNNs and Equivariance***
+***CNNs e Equivariância***
 
 \\
-Fabian Fuchs and Ed Wagstaff [discuss](https://fabianfuchsml.github.io/equivariance1of2/) the importance of equivariance and how CNNs enforce it. The concept of equivariance is first defined and then discussed in the context of CNNs with respect to translation.
+<!-- Fabian Fuchs and Ed Wagstaff [discuss](https://fabianfuchsml.github.io/equivariance1of2/) the importance of equivariance and how CNNs enforce it. The concept of equivariance is first defined and then discussed in the context of CNNs with respect to translation. -->
+
+Fabian Fuchs e Ed Wagstaff [discutiram](https://fabianfuchsml.github.io/equivariance1of2/) a importância da equivariância e como as *Convolutional Neural Networks (CNNs)* garantem essa propriedade. O conceito é apresentado e discutido posteriormente no contexto de CNNs em relação à translação.
 
 \\
-***Self-supervised learning with images***
+***Self-supervised learning com imagens***
 
 \\
-Self-supervised has been discussed a lot in previous issues of the NLP Newsletter due to the role it has played in modern techniques for language modeling. This [blog post](https://datasciencecastnet.home.blog/2020/02/22/self-supervised-learning-with-image%e7%bd%91/) by Jonathan Whitaker provides a nice and intuitive explanation of self-supervision in the context of images. If you are really interested in the topic, Amit Chaudhary also wrote an excellent [blog post](https://amitness.com/2020/02/illustrated-self-supervised-learning/) describing the concept in a visual way.
+
+A técnica de *self-supervised learning* foi amplamente discutida nas edições passadas da Newsletter devido ao seu papel em modelos recentes para modelagem de linguagem. Esse [*blog post*](https://datasciencecastnet.home.blog/2020/02/22/self-supervised-learning-with-image%e7%bd%91/) feito pelo Jonathan Whitaker uma explicação intuitiva da técnica de aprendizado no contexto de imagens. Se você deseja um conhecimento mais profundo sobre o assunto, o Amit Chaudhary também publicou um [artigo interessante](https://amitness.com/2020/02/illustrated-self-supervised-learning/) descrevendo o conceito de maneira visual.
+
+<!-- Self-supervised has been discussed a lot in previous issues of the NLP Newsletter due to the role it has played in modern techniques for language modeling. This [blog post](https://datasciencecastnet.home.blog/2020/02/22/self-supervised-learning-with-image%e7%bd%91/) by Jonathan Whitaker provides a nice and intuitive explanation of self-supervision in the context of images. If you are really interested in the topic, Amit Chaudhary also wrote an excellent [blog post](https://amitness.com/2020/02/illustrated-self-supervised-learning/) describing the concept in a visual way. -->
 
 
 # Education 🎓
