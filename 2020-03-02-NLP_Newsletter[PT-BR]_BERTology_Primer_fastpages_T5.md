@@ -237,46 +237,65 @@ A técnica de *self-supervised learning* foi amplamente discutida nas edições 
 ***Stanford CS330: Deep Multi-Task and Meta-Learning***
 
 \\
-Stanford recently released video recordings, in the form of a YouTube playlist, for their new [course on deep multi-task and meta-learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5). Topics include bayesian meta-learning, lifelong learning, a reinforcement learning primer, model-based reinforcement learning, among others.
+
+A universidade de Stanford liberou recentemente suas vídeo-aulas, numa *playlist* no YouTube, para o [novo curso em *deep multi-task and meta-learning*](https://www.youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5). Os assuntos apresentados incluem *bayesian meta-learning*, *lifelong learning*, uma visão geral sobre aprendizado por reforço, *model-based reinforcement learning*, entre outros.
+
+<!-- Stanford recently released video recordings, in the form of a YouTube playlist, for their new [course on deep multi-task and meta-learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5). Topics include bayesian meta-learning, lifelong learning, a reinforcement learning primer, model-based reinforcement learning, among others. -->
 
 \\
 ***PyTorch Notebooks***
 
 \\
-dair.ai releases a [series of notebooks](https://github.com/dair-ai/pytorch_notebooks) that aim to get you started with deep neural networks using PyTorch. This is a work in progress and some current topics include how to implement a logistic regression model from scratch and how to program a neural network or recurrent neural network from scratch. Colab notebooks are also available in the GitHub repository.
+
+A dar.ai liberou recentemente um [compilado de *notebooks*]https://github.com/dair-ai/pytorch_notebooks) que buscam introduzir a utilização de redes neurais profundas utilizando o PyTorch. O trabalho continua em desenvolvimento, e alguns dos tópicos já disponíveis incluem como implementar um modelo de regressão logística do zero, assim como a programação de redes neurais *feed-forward* e recorrentes. Notebooks no Colab estão disponíveis em seu repositório no GitHub.
+
+<!-- dair.ai releases a [series of notebooks](https://github.com/dair-ai/pytorch_notebooks) that aim to get you started with deep neural networks using PyTorch. This is a work in progress and some current topics include how to implement a logistic regression model from scratch and how to program a neural network or recurrent neural network from scratch. Colab notebooks are also available in the GitHub repository. -->
 
 \\
 ***The fastai book (draft)***
 
 \\
-Jeremy Howard and Sylvain Gugger release a [comprehensive list](https://github.com/fastai/fastbook) of draft notebooks for an upcoming course that introduces deep learning concepts and how to develop different methods using PyTorch and the fastai library.
+
+Jeremy Howard e Sylvain Gugger liberaram uma [lista](https://github.com/fastai/fastbook) com alguns notebooks para um futuro curso que introduz conceitos de *Deep Learning* e como implementar diferentes métodos utilizados o PyTorch e a biblioteca da fastai.
+
+<!-- Jeremy Howard and Sylvain Gugger release a [comprehensive list](https://github.com/fastai/fastbook) of draft notebooks for an upcoming course that introduces deep learning concepts and how to develop different methods using PyTorch and the fastai library. -->
 
 \\
-***Free Data Science courses***
+***Cursos gratuitos de Ciência de Dados***
 
 \\
-In case you missed it, Kaggle provides a series of [free micro-courses](https://www.kaggle.com/learn/overview) to get you started with your Data Science journey. Some of these courses include machine learning explainability, an intro to machine learning and Python, data visualization, feature engineering, and deep learning, among others.
+<!-- In case you missed it, Kaggle provides a series of [free micro-courses](https://www.kaggle.com/learn/overview) to get you started with your Data Science journey. Some of these courses include machine learning explainability, an intro to machine learning and Python, data visualization, feature engineering, and deep learning, among others. -->
+
+O Kaggle disponibilizou uma śerie de [mini-cursos gratuitos]https://www.kaggle.com/learn/overview) para o pontapé inicial da sua carreira em Ciência de Dados. Os cursos abordam assuntos como Explicabilidade em ML, Introdução ao Aprendizado de Máquina e ao Python, Visualização de Dados, *Feature Engineering*, *Deep Learning*, entre outros.
 
 \\
-Here is another excellent [online data science course](https://lewtun.github.io/dslectures/) that provides a syllabus, slides, and notebooks on topics that range from exploratory data analysis to model interpretation to natural language processing.
+<!-- Here is another excellent [online data science course](https://lewtun.github.io/dslectures/) that provides a syllabus, slides, and notebooks on topics that range from exploratory data analysis to model interpretation to natural language processing. -->
+
+Um outro [excelente curso online](https://lewtun.github.io/dslectures/) de Ciência de Dados disponibiliza notas de aulas, *slides* e *notebooks* sobre tópicos que vão desde análise exploratória de dados até interpretação de modelos para Processamento de Linguagem Natural.
 
 \\
-***8 Creators and Core Contributors Talk About Their Model Training Libraries From PyTorch Ecosystem***
+<!-- ***8 Creators and Core Contributors Talk About Their Model Training Libraries From PyTorch Ecosystem*** -->
+
+***8 Criadores e Colaboradores discutem suas bibliotecas de treinamento de modelos no ecossistema do PyTorch***
 
 \\
-nepture.ai published an [extensive article](https://neptune.ai/blog/model-training-libraries-pytorch-ecosystem?utm_source=twitter&utm_medium=tweet&utm_campaign=blog-model-training-libraries-pytorch-ecosystem) that contains detailed discussions with core creators and contributors about their journey and philosophy of building PyTorch and tools around it.
+<!-- nepture.ai published an [extensive article](https://neptune.ai/blog/model-training-libraries-pytorch-ecosystem?utm_source=twitter&utm_medium=tweet&utm_campaign=blog-model-training-libraries-pytorch-ecosystem) that contains detailed discussions with core creators and contributors about their journey and philosophy of building PyTorch and tools around it. -->
+
+A nepture.ai publicou um [excelente artigo](https://neptune.ai/blog/model-training-libraries-pytorch-ecosystem?utm_source=twitter&utm_medium=tweet&utm_campaign=blog-model-training-libraries-pytorch-ecosystem) que contém discussões detalhadas com criadores e colaboradores sobre suas jornadas e a filosofia utilizada na criação do PyTorch e nas ferramentas construídas com base nele.
 
 \\
-***Visualizing Adaptive Sparse Attention Models***
+***Visualizando Adaptive Sparse Attention Models***
 
 \\
-Sasha Rush shares an impressive [Colab notebook](http://Visualizing%20Adaptive%20Sparse%20Attention%20Models) that explains and shows the technical details of how to produce sparse softmax outputs and induce sparsity into the attention component of a Transformer model which helps to produce zero probability for irrelevant words in a given context, improving performance and interpretability all at once.
+<!-- Sasha Rush shares an impressive [Colab notebook](http://Visualizing%20Adaptive%20Sparse%20Attention%20Models) that explains and shows the technical details of how to produce sparse softmax outputs and induce sparsity into the attention component of a Transformer model which helps to produce zero probability for irrelevant words in a given context, improving performance and interpretability all at once. -->
+
+Sashs Rush compartilhou um [notebook impressionante](http://Visualizing%20Adaptive%20Sparse%20Attention%20Models) que explica e mostra os detalhes técnicos sobre como produzir saídas esparsas com a softmax e induzir esparsidade nos componentes de atenção do modelo *Transformer*, auxiliando na produção de probabilidade zero para palavras irrelevantes num dado contexto, melhorando simultaneamente o desempenho e a interpretabilidade.
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*7BB322LlVgt1zzk-cviSoA.png)
 
-
-*Visualizing probability distribution of a softmax output*
+*Visualizando a distribuição de probabilidade da saída da softmax*
+<!-- *Visualizing probability distribution of a softmax output* -->
 
 
 # Noteworthy Mentions ⭐️
