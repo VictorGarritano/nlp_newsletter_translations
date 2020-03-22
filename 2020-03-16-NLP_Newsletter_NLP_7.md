@@ -25,7 +25,7 @@ Seja muito bem-vindo a sétima edição da NLP Newsletter. Esperamos que você t
 
 Todas as traduções em francês e em chinês das edições anteriores estão agora [disponíveis](https://github.com/dair-ai/nlp_newsletter). Descubra como você pode contribuir com a tradução das edições anteriores (assim como as futuras!) da Newsletter nesse [link](https://github.com/dair-ai/dair-ai.github.io/issues/11).
 
--  **Nota do tradutor**: As traduções de todas as edições da Newsletter, com exceto a 3ª, também estão disponíveis!
+-  **Nota do tradutor**: As traduções de todas as edições da Newsletter, exceto a 3ª, para português também estão disponíveis!
 
 <!-- ***A few updates about the NLP Newsletter and dair.ai***
 All French and Chinese translations for the previous issues of the NLP Newsletter are now [available](https://github.com/dair-ai/nlp_newsletter). Find out how you can contribute to the translation of previous and upcoming issues of the NLP Newsletter at this [link](https://github.com/dair-ai/dair-ai.github.io/issues/11). -->
@@ -37,29 +37,38 @@ Nós criamos recentemente dois repositórios no Github que contêm [resumos de a
 <!-- We recently created two GitHub repositories that contain [NLP paper summaries](https://github.com/dair-ai/nlp_paper_summaries) and [PyTorch notebooks](https://github.com/dair-ai/pytorch_notebooks) to get you started with neural networks. -->
 
 
-# Research and Publications 📙
+# Pesquisas e Publicações 📙
 
 ***Measuring Compositional Generalization***
 
 \\
-In the context of machine learning, compositional generalization is the ability to learn to represent meaning and in turn sequences (novel combinations) from what’s learned in the training set. To this date, it is not clear how to properly measure compositionality in neural networks. A Google AI team [proposes](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) one of the largest benchmarks for compositional generalization using tasks such as question answering and semantic parsing. The picture below shows an example of the proposed model using atoms (produce, direct, etc.) to produce novel compounds, i.e., combinations of atoms. The idea of this work is to produce a train-test split that contains examples that share similar atoms (building blocks to generate examples) distribution but different compound distribution (the composition of atoms). The authors claim that is a more reliable way to test for compositional generalization.
+
+No contexto de Aprendizado de Máquina, *compositional generalization* se refere a habilidade de representar o conhecimento aprendido com a base de dados e aplicá-lo a novos e diferentes contextos. Até o presente momento, não estava claro como medir essa composicionalidade nas redes neurais. Recentemente, o time de IA da Goole [apresentou](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) um dos maiores *benchmarks* para *compositional generalization* utilizando tarefas como *question answering* e *semantic parsing*. A imagem abaixo apresenta um exemplo do modelo proposto untilizando os chamados *átomos* (unidades utilizadas para se gerar os exemplos) para que sejam produzidos *compostos* (novas combinações dos átomos). A ideia deste trabalho é construir bases de treino e teste que combinam exemplos que possuem a mesma distribuição pelos diferentes *átomos* mas com distribuições diferentes sobre os *compostos*. Os autores argumentam que essa é uma maneira mais confiável de se testar a *compositional generalization*.
+
+<!-- In the context of machine learning, compositional generalization is the ability to learn to represent meaning and in turn sequences (novel combinations) from what’s learned in the training set. To this date, it is not clear how to properly measure compositionality in neural networks. A Google AI team [proposes](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) one of the largest benchmarks for compositional generalization using tasks such as question answering and semantic parsing. The picture below shows an example of the proposed model using atoms (produce, direct, etc.) to produce novel compounds, i.e., combinations of atoms. The idea of this work is to produce a train-test split that contains examples that share similar atoms (building blocks to generate examples) distribution but different compound distribution (the composition of atoms). The authors claim that is a more reliable way to test for compositional generalization. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*lXmUWOY8HJL7YVn1.gif)
 
-*Credit: Google AI Blog*
+*Crédito: Google AI Blog*
 
 \\
 ***Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping***
 
 \\
-Researchers ran a comprehensive [set of fine-tuning trials](https://arxiv.org/abs/2002.06305) to better understand the effect of weight initialization and early stopping in the performance of language models. Through various experiments that involved fine-tuning BERT hundreds of times, it was found that distinct random seeds produce very different results. In particular, the study reports that some weight initialization does perform well across a set of tasks. All the experimental data and trials were publicly released for other researchers that are interested in further understanding different dynamics during fine-tuning.
+
+Pesquisadores testaram uma série de [procedimentos de refinamento](https://arxiv.org/abs/2002.06305) (*fine-tuning*) com o objetivo de compreender melhor o efeito das diferentes estratégias de inicialização de pesos e políticas de *early stopping* no desempenho de modelos de linguagem. Através de exaustivos experimentos de refinamento do BERT, foi constatado que *seeds* aleatórias distintas produzem resultados bastante distintos. Em particular, o estudo reporta que certas inicializações de pesos de fato conferem ao modelo um bom desempenho em diversas taregas. Todas as bases e testes realizados foram disponibilizadas, para uso de outros pesquisadores interessados em entender as dinâmicas que ocorrem durante o refinamento de maneira mais aprofundada. 
+
+<!-- Researchers ran a comprehensive [set of fine-tuning trials](https://arxiv.org/abs/2002.06305) to better understand the effect of weight initialization and early stopping in the performance of language models. Through various experiments that involved fine-tuning BERT hundreds of times, it was found that distinct random seeds produce very different results. In particular, the study reports that some weight initialization does perform well across a set of tasks. All the experimental data and trials were publicly released for other researchers that are interested in further understanding different dynamics during fine-tuning. -->
 
 \\
 ***Zoom In: An Introduction to Circuits***
 
 \\
-OpenAI researchers published a [piece](https://distill.pub/2020/circuits/zoom-in/) discussing the state of interpretability of neural networks and the proposal of a new approach to interpreting them. Inspired by cellular biology, the authors delve deep into understanding vision models and what they learn by inspecting the weights of neural networks. Essentially, the study presented a few claims along with collected evidence that they believe could pave the way to better interpret neural networks.
+
+Pesquisadores da OpenAI publicaram um [postagem](https://distill.pub/2020/circuits/zoom-in/) discutindo o estado atual da tarefa de interpretabilidade de redes neurais, assim como uma nova abordagem para a interpretação das mesmas. Inspirada pela biologia celular, os buscaram entender modelos de visão computacional e o que eles aprendem de maneira bastante aprofundada, através da inspeção dos pesos do modelo. Basicamente, o estudo apresentou algumas conclusões, obtidas a partir dos experimentos realizados, as quais eles acreditam que possam ser utilizadas como base para uma melhor interpretação das redes neurais.
+
+<!-- OpenAI researchers published a [piece](https://distill.pub/2020/circuits/zoom-in/) discussing the state of interpretability of neural networks and the proposal of a new approach to interpreting them. Inspired by cellular biology, the authors delve deep into understanding vision models and what they learn by inspecting the weights of neural networks. Essentially, the study presented a few claims along with collected evidence that they believe could pave the way to better interpret neural networks. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*i0c-qpiire6dD4IqJVKlYg.png)
@@ -68,13 +77,19 @@ OpenAI researchers published a [piece](https://distill.pub/2020/circuits/zoom-in
 ***NLP Research Highlights — Issue #1***
 
 \\
-In a new dair.ai series called [NLP Research Highlights](https://medium.com/dair-ai/nlp-newsletter-bertology-primer-fastpages-t5-data-science-education-pytorch-notebooks-slow-8ae5d499e040), we provide detailed descriptions of current interesting and important NLP research. This will serve as a way to keep track of NLP progress via approachable summaries of these works. In the first quarterly issue, topics range from improving language models to improving conversational agents to state-of-the-art speech recognition systems. These summaries will also be maintained [here](https://github.com/dair-ai/nlp_paper_summaries).
+
+Numa nova iniciativa da dar.ai, a [NLP Research Highlights](https://medium.com/dair-ai/nlp-newsletter-bertology-primer-fastpages-t5-data-science-education-pytorch-notebooks-slow-8ae5d499e040), são fornecidas descrições detalhadas de tópicos atuais e bem importantes da pesquisa em NLP. A ideia é que essa iniciativa seja utilizada para acompanhar os avanços da área através de resumos acessíveis desses trabalhos. Na primeira edição trimestral, os tópicos abordados tratam sobre melhorias em modelos de linguagem e em agentes conversacionais para sistemas de reconhecimento de voz. Os resumos são mantidos [aqui](https://github.com/dair-ai/nlp_paper_summaries).
+
+<!-- In a new dair.ai series called [NLP Research Highlights](https://medium.com/dair-ai/nlp-newsletter-bertology-primer-fastpages-t5-data-science-education-pytorch-notebooks-slow-8ae5d499e040), we provide detailed descriptions of current interesting and important NLP research. This will serve as a way to keep track of NLP progress via approachable summaries of these works. In the first quarterly issue, topics range from improving language models to improving conversational agents to state-of-the-art speech recognition systems. These summaries will also be maintained [here](https://github.com/dair-ai/nlp_paper_summaries). -->
 
 \\
 ***Learning to Simulate Complex Physics with Graph Networks***
 
 \\
-In the past few months, we have been featuring a lot about Graph Neural Networks (GNNs) due to their effectiveness not only in NLP but in other areas such as genomics and materials. In a recent [paper](https://arxiv.org/abs/2002.09405), researchers propose a general framework based on graph networks that is able to learn simulations in different domains such as fluids and deformable materials. The authors claim that they achieve state-of-the-art performance across different domains and that their general-purpose approach is potentially the best-learned physics simulator to date. Experiments include the simulation of materials such as goop over water and other interactions with rigid obstacles. They also tested a pre-trained model on out-of-distribution tasks and found promising results that show the generalization of the framework to larger domains.
+
+Nos últimos meses, as *Graph Neural Networks (GNNs)* (redes neurais que operam sobre redes) foram um assunto recorrente nas edições da *Newsletter*, devido a sua efetividade em tarefas não só da área de NLP como também em genômica e materiais. Um [artigo](https://arxiv.org/abs/2002.09405) publicado recentemente, propõe um *framework* geral baseado em GNNs que é capaz de realizar simulações físicas em diferentes cenários, como fluidos e materiais maleáveis. Os autores argumentam que eles obtiveram um desempenho estado-da-arte nesses diferentes contextos e que a abordagem proposta é possivelmente o melhor simulador treinado da atualmente. Os experimentos realizados incluem a simulação de materiais como fluidos viscosos sobre a água e outras interações com objetos rígidos. Também foi testado um modelo pré-treinado em tarefas *out-of-distribution* e os resultados obtidos foram bastante promissores, evidenciando o potencial de generalização para da abordagens para outros cenários. 
+
+<!-- In the past few months, we have been featuring a lot about Graph Neural Networks (GNNs) due to their effectiveness not only in NLP but in other areas such as genomics and materials. In a recent [paper](https://arxiv.org/abs/2002.09405), researchers propose a general framework based on graph networks that is able to learn simulations in different domains such as fluids and deformable materials. The authors claim that they achieve state-of-the-art performance across different domains and that their general-purpose approach is potentially the best-learned physics simulator to date. Experiments include the simulation of materials such as goop over water and other interactions with rigid obstacles. They also tested a pre-trained model on out-of-distribution tasks and found promising results that show the generalization of the framework to larger domains. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*48EolUDJoHpYRCTZxgn_qg.png)
@@ -82,10 +97,16 @@ In the past few months, we have been featuring a lot about Graph Neural Networks
 [*(Sanchez-Gonzalez et al., 2020)*](https://arxiv.org/pdf/2002.09405.pdf)
 
 \\
-***Language-specific BERT models***
+***Modelos BERT para idiomas específicos***
 
 \\
-Arabic BERT (AraBERT) is now available in the Hugging Face Transformer library. You can access the model [here](https://huggingface.co/aubmindlab/bert-base-arabert) and the paper [here](https://arxiv.org/abs/2003.00104). Recently, a Japanese version of BERT was also [released](https://github.com/akirakubo/bert-japanese-aozora). And there is also a Polish version of BERT called [Polbert](https://github.com/kldarek/polbert).
+
+O BERT Árabe (AraBERT) está agora disponível na biblioteca de *Transformers* da *Hugging Face*. Você pode acessar o modelo [aqui](https://huggingface.co/aubmindlab/bert-base-arabert) e o artigo [aqui](https://arxiv.org/abs/2003.00104).
+
+\\
+Recentemente, uma versão em japonês do BERT também foi [disponibilizada](https://github.com/akirakubo/bert-japanese-aozora). Uma versão em polonês também está disponível, batizada como [Polbert](https://github.com/kldarek/polbert).
+
+<!-- Arabic BERT (AraBERT) is now available in the Hugging Face Transformer library. You can access the model [here](https://huggingface.co/aubmindlab/bert-base-arabert) and the paper [here](https://arxiv.org/abs/2003.00104). Recently, a Japanese version of BERT was also [released](https://github.com/akirakubo/bert-japanese-aozora). And there is also a Polish version of BERT called [Polbert](https://github.com/kldarek/polbert). -->
 
 
 # Creativity, Ethics, and Society 🌎
