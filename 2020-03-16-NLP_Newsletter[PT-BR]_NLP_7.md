@@ -103,7 +103,7 @@ Nos últimos meses, as *Graph Neural Networks (GNNs)* (redes neurais que operam 
 
 \\
 
-O BERT Árabe (AraBERT) está agora disponível na biblioteca de *Transformers* da *Hugging Face*. Você pode acessar o modelo [aqui](https://huggingface.co/aubmindlab/bert-base-arabert) e o artigo [aqui](https://arxiv.org/abs/2003.00104).
+O BERT Árabe (AraBERT) está agora disponível na biblioteca de *Transformers* da Hugging Face. Você pode acessar o modelo [aqui](https://huggingface.co/aubmindlab/bert-base-arabert) e o artigo [aqui](https://arxiv.org/abs/2003.00104).
 
 \\
 Recentemente, uma versão em japonês do BERT também foi [disponibilizada](https://github.com/akirakubo/bert-japanese-aozora). Uma versão em polonês também está disponível, batizada como [Polbert](https://github.com/kldarek/polbert).
@@ -276,7 +276,7 @@ Nesse [*blog post*](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/)
 
 \\
 
-O [BART](https://arxiv.org/abs/1910.13461) é um novo modelo proposto pelo Facebook que consiste num *denoising autoencoder* para o pré-treinamento de modelos *sequence-to-sequence*, que pode melhorar o desempenho dos mesmos em tarefas como sumarização abstrata. Sam Shleifer disponibilizou um [resumo interessante](https://sshleifer.github.io/blog_v2/jupyter/2020/03/12/bart.html) do BART e como ele realizou a integração do modelo na biblioteca Transformers da *Hugging Face*.
+O [BART](https://arxiv.org/abs/1910.13461) é um novo modelo proposto pelo Facebook que consiste num *denoising autoencoder* para o pré-treinamento de modelos *sequence-to-sequence*, que pode melhorar o desempenho dos mesmos em tarefas como sumarização abstrata. Sam Shleifer disponibilizou um [resumo interessante](https://sshleifer.github.io/blog_v2/jupyter/2020/03/12/bart.html) do BART e como ele realizou a integração do modelo na biblioteca Transformers da Hugging Face.
 
 <!-- [BART](https://arxiv.org/abs/1910.13461) is a new model proposed by Facebook that involves a denoising autoencoder for pretraining seq2seq models that improve performance on downstream text generation tasks such as abstractive summarization. Sam Shleifer provides a [nice summary](https://sshleifer.github.io/blog_v2/jupyter/2020/03/12/bart.html) of BART and how he integrated it into the Hugging Face Transformers repo. -->
 
@@ -294,49 +294,68 @@ Madison May escreveu recentement um [compilado](https://www.pragmatic.ml/a-surve
 
 \\
 
-Apesar da fluência impressionate na escrita automática de texto evidenciada no ano passado, continua sendo um desafo controlar atributos como estrutura ou conteúdo em textos gerados por modelos. Numa [postagem recente](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau disctue o progresso recente e as perspectivas na área de geração de texto parametrizável, como o modelo GPT-2 da *Hugging Face* refinado no arXiv e o T5 da Google, além do CTRL da Salesforce e o PPLM do time de IA da Uber.
+Apesar da fluência impressionate na escrita automática de texto evidenciada no ano passado, continua sendo um desafo controlar atributos como estrutura ou conteúdo em textos gerados por modelos. Numa [postagem recente](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discute o progresso recente e as perspectivas na área de geração de texto parametrizável, como o modelo GPT-2 da Hugging Face refinado no arXiv e o T5 da Google, além do CTRL da Salesforce e o PPLM do time de IA da Uber.
 
 <!-- Despite the impressive fluency automatic text writing has exhibited in the past year, it is still challenging to control attributes like structure or content of the machine-written text. In a [recent blog post](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discusses the recent progress and the perspectives in the field of controllable text generation, from Hugging Face’s GPT-2 model fine-tuned on arXiv to Google’s T5, with mentions of Salesforce’s CTRL and Uber AI’s PPLM. -->
 
-# Education 🎓
+# Educação 🎓
 
 ***Talk: The Future of NLP in Python***
 
 \\
-In one of our previous newsletters, we featured [THiNC](https://thinc.ai/) which is a functional deep learning library focused on compatibility with other existing libraries. This [set of slides](https://speakerdeck.com/inesmontani/the-future-of-nlp-in-python-keynote-pycon-colombia-2020?slide=9) introduces a bit more of the library which was used in the talk by Ines Montani for PyCon Colombia.
+
+Em uma de nossas edições anteriores, foi apresentado o [THiNC](https://thinc.ai/), uma biblioteca funcional de *Deep Learning* focada na compatibilidade com outras bibliotecas existentes. Essa [apresentação](https://speakerdeck.com/inesmontani/the-future-of-nlp-in-python-keynote-pycon-colombia-2020?slide=9), utilizada pela Ines Montani na PyCon Colombia, introduz a biblioteca mais profundamente.
+
+<!-- In one of our previous newsletters, we featured [THiNC](https://thinc.ai/) which is a functional deep learning library focused on compatibility with other existing libraries. This [set of slides](https://speakerdeck.com/inesmontani/the-future-of-nlp-in-python-keynote-pycon-colombia-2020?slide=9) introduces a bit more of the library which was used in the talk by Ines Montani for PyCon Colombia. -->
 
 \\
 ***Transformers Notebooks***
 
 \\
-HuggingFace published a set of [Colab notebooks](https://github.com/huggingface/transformers/tree/master/notebooks) that help to get started with their popular Transformers library. Some notebooks include using tokenization, setting up NLP pipelines, and training a language model on custom data.
+
+A Hugging Face publicou uma coleção de [notebooks no Colab](https://github.com/huggingface/transformers/tree/master/notebooks) que auxilia no início da utilização de sua biblioteca Transformers. Alguns notebooks incluem o uso de tokenização, configuração de *pipelines* de NLP, e o treinamento de modelos de linguagem em bases de dados próprias.
+
+<!-- HuggingFace published a set of [Colab notebooks](https://github.com/huggingface/transformers/tree/master/notebooks) that help to get started with their popular Transformers library. Some notebooks include using tokenization, setting up NLP pipelines, and training a language model on custom data. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*0AYHYUsHbaqV2vqN2zCzLQ.png)
 
 \\
+
 ***TensorFlow 2.0 in 7 hours***
 
 \\
-Check out this [~7-hour free course](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/) on TensorFlow 2.0 containing topics that range from basic neural networks to NLP with RNNs to an introduction to reinforcement learning.
+
+Confira esse [curso grátis de ~7 horas](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/) sobre o Tensorflow 2.0, onde são cobertos tópicos como o básico de redes neurais, NLP com redes neurais recorrentes (RNNs) e uma introdução ao Aprendizado por Reforço.
+
+<!-- Check out this [~7-hour free course](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/) on TensorFlow 2.0 containing topics that range from basic neural networks to NLP with RNNs to an introduction to reinforcement learning. -->
 
 \\
 ***DeepMind: The Podcast***
 
 \\
-DeepMind has released all episodes (in the form of a [YouTube playlist](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj)) for their podcast which features scientists, researchers, and engineers discussing topics that range from AGI to neuroscience to robotics.
+A DeepMind liberou todos os episódios (numa [playlist no YouTube](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj)) do seu *podcast* com cientistas, pesquisadores e engenheiros, onde são discutidos tópicos como *Aritifical General Intelligence, neurociência e robótica.
 
 \\
-***Machine Learning and Deep Learning Courses***
+***Cursos de Machine Learning and Deep Learning***
 
 \\
-Berkeley is publicly releasing the [entire syllabus](https://sites.google.com/view/berkeley-cs294-158-sp20/home) for its course on “Deep Unsupervised Learning” mainly focusing on the theoretical aspects of self-supervised learning and generative models. Some topics include latent variable models, autoregressive models, flow models, and self-supervised learning, to name a few. Youtube videos and slides are available.
+
+A Berkeley está disponibilizando publicamente o [plano de estudos](https://sites.google.com/view/berkeley-cs294-158-sp20/home) do seu curso em "*Deep Unsupervised Learning*", focado principalmente nos aspectos teóriocs do *self-supervised learning* e em modelos generativos. Outros tópicos incluem modelos de variáveis latentes, modelos autoregressivos e *flow models*. As aulas e os *slides* também estão disponíveis.
+
+<!-- Berkeley is publicly releasing the [entire syllabus](https://sites.google.com/view/berkeley-cs294-158-sp20/home) for its course on “Deep Unsupervised Learning” mainly focusing on the theoretical aspects of self-supervised learning and generative models. Some topics include latent variable models, autoregressive models, flow models, and self-supervised learning, to name a few. Youtube videos and slides are available. -->
 
 \\
-We also found this [impressive list](https://www.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/) of advanced online courses on machine learning, NLP and deep learning.
+
+Nós também encontramos essa [lista impressionante](https://www.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/) de cursos avançados online de ML, NLP e *Deep Learning*.
+
+<!-- We also found this [impressive list](https://www.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/) of advanced online courses on machine learning, NLP and deep learning. -->
 
 \\
-And here is another course called [“Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)” which includes topics such as supervised regression, performance evaluation, random forests, parameter tuning, practical advice, and much more.
+
+E aqui está um outro curso entitulado [“Introduction to Machine Learning"](https://compstat-lmu.github.io/lecture_i2ml/index.html) que aborda assuntos como regressão supervisionada, avaliação de desempenho, *random forests*, ajuste de parâmetros, dicas práticas e muito mais.
+
+<!-- And here is another course called [“Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)” which includes topics such as supervised regression, performance evaluation, random forests, parameter tuning, practical advice, and much more. -->
 
 
 # Menções Honrosas ⭐️
