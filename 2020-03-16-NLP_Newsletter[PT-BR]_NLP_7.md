@@ -157,18 +157,26 @@ Esse excelente [artigo do Tensorflow](https://blog.tensorflow.org/2020/03/face-a
 *Créditos: Blog do Tensorflow*
 
 
-# Tools and Datasets ⚙️
+# Ferramentas e Bases de Dados ⚙️
 
 ***NLP Paper Summaries***
 
 \\
-We recently created a [repository](https://github.com/dair-ai/nlp_paper_summaries) containing a list of carefully curated NLP paper summaries for some of the most interesting and important NLP papers in the past few years. The focus is to feature paper summaries and blog posts of important papers to help improve the approachability and accessibility of NLP topics and research.
+
+Nós criamos recentemente um [repositório]https://github.com/dair-ai/nlp_paper_summaries) contendo uma lista de resumos de artigos de NLP cuidadosamente formulados, para alguns dos mais interessantes e importantes *papers* da área nos últimos anos. O foco principal da iniciativa é expandir a acessibilidade do público-geral à tópicos e pesquisas de NLP.
+
+<!-- We recently created a [repository](https://github.com/dair-ai/nlp_paper_summaries) containing a list of carefully curated NLP paper summaries for some of the most interesting and important NLP papers in the past few years. The focus is to feature paper summaries and blog posts of important papers to help improve the approachability and accessibility of NLP topics and research. -->
 
 \\
-***A differentiable computer vision library for PyTorch.***
+<!-- ***A differentiable computer vision library for PyTorch.*** -->
+
+***Uma biblioteca de visão computacional diferenciável em PyTorch***
 
 \\
-[Kornia](https://github.com/kornia/kornia) is an open-source library built on top of PyTorch that allows researchers to use a set of operators for performing differentiable computer vision using PyTorch. Some capabilities include image transformations, depth estimation, and low-level image processing, to name a few. It is heavily inspired by OpenCV but the difference is that it is meant to be used for research as opposed to building production-ready applications.
+
+A [Kornia](https://github.com/kornia/kornia) é uma biblioteca construída sobre o Pytorch que permite a utilização de uma série de operadores para visão computacional diferenciável utilizando o PyTorch. Algumas das funcionalidades incluem transformações em images, *depth estimation*, processamento de imagens em baixo-nível, dentre várias outras. O módulo é fortemente inspirado no OpenCV, com a diferença de ser focada em pesquisa, ao invés de aplicações prontas para produção.
+
+<!-- [Kornia](https://github.com/kornia/kornia) is an open-source library built on top of PyTorch that allows researchers to use a set of operators for performing differentiable computer vision using PyTorch. Some capabilities include image transformations, depth estimation, and low-level image processing, to name a few. It is heavily inspired by OpenCV but the difference is that it is meant to be used for research as opposed to building production-ready applications. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*gN_-llcA4_3lIHYE.gif)
@@ -177,16 +185,24 @@ We recently created a [repository](https://github.com/dair-ai/nlp_paper_summarie
 ***Introducing DIET: state-of-the-art architecture that outperforms fine-tuning BERT and is 6X faster to train***
 
 \\
-DIET (Dual Intent and Entity Transformer) is a natural language understanding (NLU) multitask architecture [proposed](https://blog.rasa.com/introducing-dual-intent-and-entity-transformer-diet-state-of-the-art-performance-on-a-lightweight-architecture/) by Rasa. The framework focuses on multitask training to improve results on both intent classification and entity recognition. Other benefits of DIET include the ability to use any of the current pre-trained embeddings such as BERT and GloVe. However, the focus was to provide a model that improves the current state-of-the-art performance on those tasks and is faster to train (6X speedup reported). The model is available in the [Rasa Open Source python library](https://rasa.com/docs/rasa/1.8.0/nlu/components/#dietclassifier).
+*(Dual Intent and Entity Transformer)* é uma arquitetura multi-tarefa de *natural language understanding (NLU)* [proposta](https://blog.rasa.com/introducing-dual-intent-and-entity-transformer-diet-state-of-the-art-performance-on-a-lightweight-architecture/) pela Rasa. A *framework* foca no treinamento multi-tarefa, com o objetivo de melhorar o desempenho nos problemas de classificação de intenções e reconhecimento de entidades nomeadas. Outros benefícios do DIET incluem a flexibilidade de utilização de qualquer *embedding* pré-treinado, como o BERT e o GloVe. O foco principal, entretanto, é disponibilizar um modelo que ultrapassa o estado-da-arte atual nessas tarefas e que seja mais rápido de treinar (o *speedup* reportado foi de 6x !). O modelo está disponível na biblioteca [rasa](https://rasa.com/docs/rasa/1.8.0/nlu/components/#dietclassifier).
+
+<!-- DIET (Dual Intent and Entity Transformer) is a natural language understanding (NLU) multitask architecture [proposed](https://blog.rasa.com/introducing-dual-intent-and-entity-transformer-diet-state-of-the-art-performance-on-a-lightweight-architecture/) by Rasa. The framework focuses on multitask training to improve results on both intent classification and entity recognition. Other benefits of DIET include the ability to use any of the current pre-trained embeddings such as BERT and GloVe. However, the focus was to provide a model that improves the current state-of-the-art performance on those tasks and is faster to train (6X speedup reported). The model is available in the [Rasa Open Source python library](https://rasa.com/docs/rasa/1.8.0/nlu/components/#dietclassifier). -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*R_8FOU-CVZabv7hJ.jpg)
 
-[*DIET framework*](https://blog.rasa.com/introducing-dual-intent-and-entity-transformer-diet-state-of-the-art-performance-on-a-lightweight-architecture/?utm_source=twitter)
+[*framework DIET*](https://blog.rasa.com/introducing-dual-intent-and-entity-transformer-diet-state-of-the-art-performance-on-a-lightweight-architecture/?utm_source=twitter)
 
 \\
-***Lost in (language-specific) BERT models?***
-[BERT Lang Street](https://bertlang.unibocconi.it/) is a neat website that provides the ability to search over 30 BERT-based models with 18 languages and 28 tasks with a total of 177 entries. For instance, if you wanted to find out the state-of-the-art results for sentiment classification using BERT models, you can just search for “sentiment” in the search bar (example shown in the screenshot below).
+<!-- ***Lost in (language-specific) BERT models?*** -->
+***Perdido no meio dos modelos BERT?***
+
+\\
+
+O [BERT Lang Street](https://bertlang.unibocconi.it/) é uma plataforma que possui a habilidade de buscar por mais de 30 modelos baseados no BERT, em 18 idiomas e 28 tarefas, totalizando 177 entradas em sua base de dados. Por exemplo, se você quiser descobrir o estado-da-arte para a tarefa de classificação de sentimentos utilizando modelos BERT, basta procurar por *"sentiment"* na barra de busca (como exemplificado abaixo).
+
+<!-- [BERT Lang Street](https://bertlang.unibocconi.it/) is a neat website that provides the ability to search over 30 BERT-based models with 18 languages and 28 tasks with a total of 177 entries. For instance, if you wanted to find out the state-of-the-art results for sentiment classification using BERT models, you can just search for “sentiment” in the search bar (example shown in the screenshot below). -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*UuVno2eOAzYb_wlSSfukPA.png)
@@ -195,22 +211,33 @@ DIET (Dual Intent and Entity Transformer) is a natural language understanding (N
 ***Med7***
 
 \\
-Andrey Kormilitzin releases [Med7](https://github.com/kormilitzin/med7) which is a model for performing clinical NLP (in particular named entity recognition (NER) tasks) on electronic health records. The model can identify up to seven categories and is available for use with the spaCy library.
+
+O Andrey Kormilitzin disponibilizou o [Med7](https://github.com/kormilitzin/med7), que um modelo para NLP (em particular Reconhecimento de Entidades Nomeadas (NER)) em relatórios médicos eletrônicos. O modelo é capaz de identificar até 7 categorias de entidades e está disponível para uso com a biblioteca spaCy.
+
+<!-- Andrey Kormilitzin releases [Med7](https://github.com/kormilitzin/med7) which is a model for performing clinical NLP (in particular named entity recognition (NER) tasks) on electronic health records. The model can identify up to seven categories and is available for use with the spaCy library. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*yOMqhvTwYnxB4LYXv2Mgjg.png)
 
 \\
-***An Open Source Library for Quantum Machine Learning***
+<!-- ***An Open Source Library for Quantum Machine Learning*** -->
+
+***Uma biblioteca em código-aberto para Quantum Machine Learning***
 
 \\
-[TensorFlow Quantum](https://ai.googleblog.com/2020/03/announcing-tensorflow-quantum-open.html) is an open-source library that provides a toolbox for rapid prototyping of quantum ML research that allows the application of ML models to approach problems ranging from medicine to materials.
+
+[TensorFlow Quantum](https://ai.googleblog.com/2020/03/announcing-tensorflow-quantum-open.html) é uma biblioteca que fornece uma série de funcionalidades para a prototipagem rápida de modelos quânticos de ML, possibilitando a aplicação destes em problemas em áreas como a medicina e materiais.
+
+<!-- [TensorFlow Quantum](https://ai.googleblog.com/2020/03/announcing-tensorflow-quantum-open.html) is an open-source library that provides a toolbox for rapid prototyping of quantum ML research that allows the application of ML models to approach problems ranging from medicine to materials. -->
 
 \\
 ***Fast and Easy Infinitely Wide Networks with Neural Tangents***
 
 \\
-Neural Tangents is an open-source library that allows researchers to build and train infinite-width models and finite neural networks using JAX. Read the blog post of the release [here](https://ai.googleblog.com/2020/03/fast-and-easy-infinitely-wide-networks.html) and get access to the library [here](https://github.com/google/neural-tangents).
+
+A *Neural Tangents* é uma biblioteca que permite aos pesquisadores construir e treinar modelos de dimensão finita e redes neurais utilizando a JAX. Leia a postagem de lançamento [aqui](https://ai.googleblog.com/2020/03/fast-and-easy-infinitely-wide-networks.html) e acesse a biblioteca [aqui](https://github.com/google/neural-tangents).
+
+<!-- Neural Tangents is an open-source library that allows researchers to build and train infinite-width models and finite neural networks using JAX. Read the blog post of the release [here](https://ai.googleblog.com/2020/03/fast-and-easy-infinitely-wide-networks.html) and get access to the library [here](https://github.com/google/neural-tangents). -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*CojgKJwB_n_7-j0DJZ0y7g.png)
