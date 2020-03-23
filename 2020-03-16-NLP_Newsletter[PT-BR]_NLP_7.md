@@ -319,25 +319,42 @@ We also found this [impressive list](https://www.reddit.com/r/MachineLearning/co
 And here is another course called [“Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)” which includes topics such as supervised regression, performance evaluation, random forests, parameter tuning, practical advice, and much more.
 
 
-# Noteworthy Mentions ⭐️
+# Menções Honrosas ⭐️
 
-The previous NLP Newsletter (Issue #6) is available [here](https://medium.com/dair-ai/nlp-newsletter-bertology-primer-fastpages-t5-data-science-education-pytorch-notebooks-slow-8ae5d499e040).
+A edição anterior da Newsletter (6ª edição) está disponível [aqui](https://dair.ai/NLP_Newsletter-PT-BR-_BERTology_Primer_fastpages_T5/).
 
-\\
-Connon Shorten published a [video](https://www.youtube.com/watch?v=QWu7j1nb_jI&feature=emb_logo) explaining the ELECTRA model which proposes a technique called replaced token detection to pre-train Transformers more efficiently. If you are interested, we also wrote a short summary of the model [here](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a).
-
-\\
-Rachael Tatman is working on a new series called [NLP for Developers](https://www.youtube.com/watch?v=-G36q8_cYsc&feature=emb_logo) where the idea is to talk more in-depth about different NLP methods, when to use them and explaining common issues that you may run into.
+<!-- The previous NLP Newsletter (Issue #6) is available [here](https://medium.com/dair-ai/nlp-newsletter-bertology-primer-fastpages-t5-data-science-education-pytorch-notebooks-slow-8ae5d499e040). -->
 
 \\
-DeepMind releases [AlphaGo — The Movie](https://youtu.be/WXuK6gekU1Y) on YouTube to celebrate the 4th anniversary of AlphaGo beating Lee Sedol at the game of Go.
+
+Connon Shorten publicou um [vídeo](https://www.youtube.com/watch?v=QWu7j1nb_jI&feature=emb_logo) explicando o modelo ELECTRA que propõe a utilização de uma técnica chamada *replaced token detection* como forma de pré-treinar Transformers de maneira mais eficiente. Se houver interesse, nós também escrevemos um breve resumo do modelo [aqui](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a).
+
+<!-- Connon Shorten published a [video](https://www.youtube.com/watch?v=QWu7j1nb_jI&feature=emb_logo) explaining the ELECTRA model which proposes a technique called replaced token detection to pre-train Transformers more efficiently. If you are interested, we also wrote a short summary of the model [here](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a). -->
 
 \\
-OpenMined has [open positions](https://blog.openmined.org/introducing-openmined-research/) for Research Engineer and Research Scientist roles which is a good opportunity to get involved with privacy-preserving AI.
+
+Rachael Tatman está trabalhando numa nova série denominada [NLP for Developers](https://www.youtube.com/watch?v=-G36q8_cYsc&feature=emb_logo) onde o objetivo é discutir diferentes métodos de NLP de maneira mais aprofundada, quando usá-los e como lidar com dificuldades comuns apresentadas por essas técnicas.
+
+<!-- Rachael Tatman is working on a new series called [NLP for Developers](https://www.youtube.com/watch?v=-G36q8_cYsc&feature=emb_logo) where the idea is to talk more in-depth about different NLP methods, when to use them and explaining common issues that you may run into. -->
+
+\\
+
+A DeepMind liberou o [AlphaGo — The Movie](https://youtu.be/WXuK6gekU1Y) no YouTube para celebrar o 4º aniversário da vitória do modelo sobre o Lee Sedol no jogo de Go. 
+
+<!-- DeepMind releases [AlphaGo — The Movie](https://youtu.be/WXuK6gekU1Y) on YouTube to celebrate the 4th anniversary of AlphaGo beating Lee Sedol at the game of Go. -->
+
+\\
+
+A OpenMined está com [vagas abertas](https://blog.openmined.org/introducing-openmined-research/) para os cargos de *Research Engineer e Research Scientist*, que parecem ser boas oportunidades para se envolver com *privacy-preserving AI*.
+
+<!-- OpenMined has [open positions](https://blog.openmined.org/introducing-openmined-research/) for Research Engineer and Research Scientist roles which is a good opportunity to get involved with privacy-preserving AI. -->
 
 ----------
 
-If you have any datasets, projects, blog posts, tutorials, or papers that you wish to share in the next iteration of the NLP Newsletter, please free to reach out to me at ellfae@gmail.com or ****[**DM on Twitter**](https://twitter.com/omarsar0).
+Se você conhecer bases de dados, projetos, postagens, tutoriais ou artigos que você gostaria de ver na próxima edição da *Newsletter*, sinta-se a vontade para nos contactar através do e-mail ellfae@gmail.com ou de uma [mensagem direta no twitter](https://twitter.com/omarsar0). 
+
+<!-- If you have any datasets, projects, blog posts, tutorials, or papers that you wish to share in the next iteration of the NLP Newsletter, please free to reach out to me at ellfae@gmail.com or ****[**DM on Twitter**](https://twitter.com/omarsar0). -->
 
 \\
-[*Subscribe*](https://dair.ai/newsletter/) *🔖 to the NLP Newsletter to receive future issues in your inbox.*
+
+[*Inscreva-se*](https://dair.ai/newsletter/) *🔖 para receber as próximas edições na sua caixa de entrada!*
