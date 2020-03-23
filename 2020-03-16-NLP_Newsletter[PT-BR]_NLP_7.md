@@ -109,40 +109,52 @@ Recentemente, uma versão em japonês do BERT também foi [disponibilizada](http
 <!-- Arabic BERT (AraBERT) is now available in the Hugging Face Transformer library. You can access the model [here](https://huggingface.co/aubmindlab/bert-base-arabert) and the paper [here](https://arxiv.org/abs/2003.00104). Recently, a Japanese version of BERT was also [released](https://github.com/akirakubo/bert-japanese-aozora). And there is also a Polish version of BERT called [Polbert](https://github.com/kldarek/polbert). -->
 
 
-# Creativity, Ethics, and Society 🌎
+# Criatividade, Ética e Sociedade 🌎
 
 ***Computational predictions of protein structures associated with COVID-19***
 
 \\
-DeepMind releases [computationally-predicted structures](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) for proteins linked with the virus related to COVID-19. The predictions are directly obtained from the AlphaFold systems but haven’t been experimentally verified. The idea with this release is to encourage contributions that aim to better understand the virus and how it functions.
+
+A DeepMind publicou suas [predições de estruturas](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) das proteínas que se ligam ao vírus causador da COVID-19, As predições foram obtidas diretamente do sistema AlphaFold, embora não tenham sido verificadas experimentalmente. A ideia é que essa publicações encorage outras contribuições que busquem entender melhor e vírus e suas funções.
+
+<!-- DeepMind releases [computationally-predicted structures](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) for proteins linked with the virus related to COVID-19. The predictions are directly obtained from the AlphaFold systems but haven’t been experimentally verified. The idea with this release is to encourage contributions that aim to better understand the virus and how it functions. -->
 
 \\
 ***Court cases that sound like the weirdest fights***
 
 \\
-Janelle Shane shares the [results](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights) of a fun experiment where a GPT-2 model is fine-tuned to generate cases against inanimate objects. The model was fed a list of cases where the government was seizing contraband or dangerous goods and it generated cases like the ones shown in the picture below.
+
+Janelle Shane compartilhou os [resultados](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights) de um divertido experimento onde um modelo do GPT-2 foi refinado para gerar processos judiciais contra objetos inanimados. Foi disponibilizado ao modelo uma lista de processos do governo sobre apreensões de objetivos contrabandeados e artefatos perigosos, e foram geradas acusações como as apresentadas na imagem abaixo.
+
+<!-- Janelle Shane shares the [results](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights) of a fun experiment where a GPT-2 model is fine-tuned to generate cases against inanimate objects. The model was fed a list of cases where the government was seizing contraband or dangerous goods and it generated cases like the ones shown in the picture below. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*E5mHmkm1h4VQJ2Ni.png)
 
-[*Source*](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights)
+[*fonte*](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights)
 
 \\
 ***Toward Human-Centered Design for ML Frameworks***
 
 \\
-Google AI [published](https://ai.googleblog.com/2020/03/toward-human-centered-design-for-ml.html) the results of a large-scale survey of 645 people who used TensorFlow.js. They aimed to find out from non-ML software developers what are the most important features and their overall experience with using current ML frameworks. Findings include that the “lack of conceptual understanding of ML” hinders the use of ML frameworks for this particular set of users. Participants in the study also reported the need for better instructions on how to apply the ML models to different problems and more explicit support for modification.
+
+A Google AI [publicou](https://ai.googleblog.com/2020/03/toward-human-centered-design-for-ml.html) os resultados de uma grande pesquisa com 645 pessoas que utilizaram a versão do TensorFlow para JavaScript. O objetivo era entender quais eram as funcionalidades mais importantes da biblioteca para desenvolvedores fora da área de ML, assim como a sua experiência com as atuais bibliotecas de Aprendizado de Máquina. Uma das conclusões obtidas mostra que a falta de entendimento conceitual de ML dificulta a utilização de bibliotecas específicas para esse grupo de usuários. Os participantes do estudo também reportaram a necessidade de instruções mais acessíveis sobre como aplicar modelos de ML em diferentes problemas e um suporte mais explícito para modificações do usuário.
+
+<!-- Google AI [published](https://ai.googleblog.com/2020/03/toward-human-centered-design-for-ml.html) the results of a large-scale survey of 645 people who used TensorFlow.js. They aimed to find out from non-ML software developers what are the most important features and their overall experience with using current ML frameworks. Findings include that the “lack of conceptual understanding of ML” hinders the use of ML frameworks for this particular set of users. Participants in the study also reported the need for better instructions on how to apply the ML models to different problems and more explicit support for modification. -->
 
 \\
 ***Face and hand tracking in the browser with MediaPipe and TensorFlow.js***
 
 \\
-This awesome [TensorFlow article](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) provides a walkthrough of how to enable real-time face and hand tracking on the browser using TensorFlow.js and MediaPipe.
+
+Esse excelente [artigo do Tensorflow](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) apresenta um passo-a-passo para habilitar um sistema de *tracking* do rosto e das mãos diretamente no navegador utilizando o TensorFlow.js e o MediaPipe.
+
+<!-- This awesome [TensorFlow article](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) provides a walkthrough of how to enable real-time face and hand tracking on the browser using TensorFlow.js and MediaPipe. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*XsRsB-tSOZo9yWOc.gif)
 
-*Credit: TensorFlow Blog*
+*Créditos: Blog do Tensorflow*
 
 
 # Tools and Datasets ⚙️
