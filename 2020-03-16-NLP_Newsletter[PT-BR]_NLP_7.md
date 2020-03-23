@@ -48,6 +48,7 @@ No contexto de Aprendizado de Máquina, *compositional generalization* se refere
 <!-- In the context of machine learning, compositional generalization is the ability to learn to represent meaning and in turn sequences (novel combinations) from what’s learned in the training set. To this date, it is not clear how to properly measure compositionality in neural networks. A Google AI team [proposes](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) one of the largest benchmarks for compositional generalization using tasks such as question answering and semantic parsing. The picture below shows an example of the proposed model using atoms (produce, direct, etc.) to produce novel compounds, i.e., combinations of atoms. The idea of this work is to produce a train-test split that contains examples that share similar atoms (building blocks to generate examples) distribution but different compound distribution (the composition of atoms). The authors claim that is a more reliable way to test for compositional generalization. -->
 
 \\
+
 ![](https://cdn-images-1.medium.com/max/800/0*lXmUWOY8HJL7YVn1.gif)
 
 *Crédito: Google AI Blog*
@@ -71,6 +72,7 @@ Pesquisadores da OpenAI publicaram um [postagem](https://distill.pub/2020/circui
 <!-- OpenAI researchers published a [piece](https://distill.pub/2020/circuits/zoom-in/) discussing the state of interpretability of neural networks and the proposal of a new approach to interpreting them. Inspired by cellular biology, the authors delve deep into understanding vision models and what they learn by inspecting the weights of neural networks. Essentially, the study presented a few claims along with collected evidence that they believe could pave the way to better interpret neural networks. -->
 
 \\
+
 ![](https://cdn-images-1.medium.com/max/800/1*i0c-qpiire6dD4IqJVKlYg.png)
 
 \\
@@ -120,6 +122,7 @@ A DeepMind publicou suas [predições de estruturas](https://deepmind.com/resear
 <!-- DeepMind releases [computationally-predicted structures](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) for proteins linked with the virus related to COVID-19. The predictions are directly obtained from the AlphaFold systems but haven’t been experimentally verified. The idea with this release is to encourage contributions that aim to better understand the virus and how it functions. -->
 
 \\
+
 ***Court cases that sound like the weirdest fights***
 
 \\
@@ -129,6 +132,7 @@ Janelle Shane compartilhou os [resultados](https://aiweirdness.com/post/61266907
 <!-- Janelle Shane shares the [results](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights) of a fun experiment where a GPT-2 model is fine-tuned to generate cases against inanimate objects. The model was fed a list of cases where the government was seizing contraband or dangerous goods and it generated cases like the ones shown in the picture below. -->
 
 \\
+
 ![](https://cdn-images-1.medium.com/max/800/0*E5mHmkm1h4VQJ2Ni.png)
 
 [*fonte*](https://aiweirdness.com/post/612669075940900864/court-cases-that-sound-like-the-weirdest-fights)
@@ -152,6 +156,7 @@ Esse excelente [artigo do Tensorflow](https://blog.tensorflow.org/2020/03/face-a
 <!-- This awesome [TensorFlow article](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) provides a walkthrough of how to enable real-time face and hand tracking on the browser using TensorFlow.js and MediaPipe. -->
 
 \\
+
 ![](https://cdn-images-1.medium.com/max/800/0*XsRsB-tSOZo9yWOc.gif)
 
 *Créditos: Blog do Tensorflow*
@@ -242,41 +247,56 @@ A *Neural Tangents* é uma biblioteca que permite aos pesquisadores construir e 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*CojgKJwB_n_7-j0DJZ0y7g.png)
 
-# Articles and Blog posts ✍️
+# Artigos e Postagens ✍️
 
 ***From PyTorch to JAX: towards neural net frameworks that purify stateful code***
 
 \\
-Sabrina J. Mielke published an [article](https://sjmielke.com/jax-purify.htm) that provides a walkthrough of how to build and train neural networks using JAX. The article focuses on comparing the inner workings of PyTorch and JAX when building neural networks, which helps to better understand some of the benefits and differences of JAX.
+
+Sabrina J. Mielke publicou um [artigo](https://sjmielke.com/jax-purify.htm) com um passo-a-passo que ilustra a construção e treinamento de redes neurais utilizado o JAX. A postagem busca comparar o funcionamento interno da construção de redes com o PyTorch e o JAX, o que auxilia num melhor entendimento dos benefícios e diferenças do JAX.
+
+<!-- Sabrina J. Mielke published an [article](https://sjmielke.com/jax-purify.htm) that provides a walkthrough of how to build and train neural networks using JAX. The article focuses on comparing the inner workings of PyTorch and JAX when building neural networks, which helps to better understand some of the benefits and differences of JAX. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*Nrw4UnmnIZ__elHu.png)
 
-[*Source*](https://sjmielke.com/jax-purify.htm) **
+[*fonte*](https://sjmielke.com/jax-purify.htm)
 
 \\
 ***Why do we still use 18-year old BLEU?***
 
 \\
-In this [blog post](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/), Ehud Reiter talks about why we still use old evaluation techniques like BLUE for evaluating NLP models for tasks like machine translation. As a researcher in the space, he also expresses the implications for techniques that perform the evaluation on more recent tasks.
+
+Nesse [*blog post*](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/), Ehud Reiter discorre sobre porquê nós ainda utilizamos técnicas de avaliação antigas como BLUE para mensusar o desempenho de modelos de NLP para taregas como tradução automática (*machine translation*). Como um pesquisador da área, ele conta sobre as implicações para técnicas que realizam a avaliação em tarefas de NLP mais recentes.
+
+<!-- In this [blog post](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/), Ehud Reiter talks about why we still use old evaluation techniques like BLUE for evaluating NLP models for tasks like machine translation. As a researcher in the space, he also expresses the implications for techniques that perform the evaluation on more recent tasks. -->
 
 \\
 ***Introducing BART***
 
 \\
-[BART](https://arxiv.org/abs/1910.13461) is a new model proposed by Facebook that involves a denoising autoencoder for pretraining seq2seq models that improve performance on downstream text generation tasks such as abstractive summarization. Sam Shleifer provides a [nice summary](https://sshleifer.github.io/blog_v2/jupyter/2020/03/12/bart.html) of BART and how he integrated it into the Hugging Face Transformers repo.
+
+O [BART](https://arxiv.org/abs/1910.13461) é um novo modelo proposto pelo Facebook que consiste num *denoising autoencoder* para o pré-treinamento de modelos *sequence-to-sequence*, que pode melhorar o desempenho dos mesmos em tarefas como sumarização abstrata. Sam Shleifer disponibilizou um [resumo interessante](https://sshleifer.github.io/blog_v2/jupyter/2020/03/12/bart.html) do BART e como ele realizou a integração do modelo na biblioteca Transformers da *Hugging Face*.
+
+<!-- [BART](https://arxiv.org/abs/1910.13461) is a new model proposed by Facebook that involves a denoising autoencoder for pretraining seq2seq models that improve performance on downstream text generation tasks such as abstractive summarization. Sam Shleifer provides a [nice summary](https://sshleifer.github.io/blog_v2/jupyter/2020/03/12/bart.html) of BART and how he integrated it into the Hugging Face Transformers repo. -->
 
 \\
 ***A Survey of Long-Term Context in Transformers***
 
 \\
-Madison May recently wrote an interesting [survey](https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/) describing ways to improve Transformer based approaches, which include Sparse Transformers, Adaptive Span Transformers, Transformer-XL, compressive Transformers, Reformer, and routing transformer. We also touched on some of these topics in the dair.ai [publication](https://medium.com/dair-ai) and in this list of [paper summaries](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a).
+
+Madison May escreveu recentement um [compilado](https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/) bastante interessante descrevendo estratégias para melhorar abordagens baseadas em Transformers, que incluem *Sparse Transformers*, *Adaptive Span Transformers*, *Transformer-XL*, *compressive Transformers*, *Reformer*, e *routing transformer*. Alguns dos modelos já haviam aparecido em [publicações](https://medium.com/dair-ai) da dar.ai e na lista de [resumos de artigos](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a).
+
+<!-- Madison May recently wrote an interesting [survey](https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/) describing ways to improve Transformer based approaches, which include Sparse Transformers, Adaptive Span Transformers, Transformer-XL, compressive Transformers, Reformer, and routing transformer. We also touched on some of these topics in the dair.ai [publication](https://medium.com/dair-ai) and in this list of [paper summaries](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a). -->
 
 \\
 ***“Mind your language, GPT-2”: how to control style and content in automatic text writing***
 
 \\
-Despite the impressive fluency automatic text writing has exhibited in the past year, it is still challenging to control attributes like structure or content of the machine-written text. In a [recent blog post](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discusses the recent progress and the perspectives in the field of controllable text generation, from Hugging Face’s GPT-2 model fine-tuned on arXiv to Google’s T5, with mentions of Salesforce’s CTRL and Uber AI’s PPLM.
+
+Apesar da fluência impressionate na escrita automática de texto evidenciada no ano passado, continua sendo um desafo controlar atributos como estrutura ou conteúdo em textos gerados por modelos. Numa [postagem recente](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau disctue o progresso recente e as perspectivas na área de geração de texto parametrizável, como o modelo GPT-2 da *Hugging Face* refinado no arXiv e o T5 da Google, além do CTRL da Salesforce e o PPLM do time de IA da Uber.
+
+<!-- Despite the impressive fluency automatic text writing has exhibited in the past year, it is still challenging to control attributes like structure or content of the machine-written text. In a [recent blog post](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discusses the recent progress and the perspectives in the field of controllable text generation, from Hugging Face’s GPT-2 model fine-tuned on arXiv to Google’s T5, with mentions of Salesforce’s CTRL and Uber AI’s PPLM. -->
 
 # Education 🎓
 
