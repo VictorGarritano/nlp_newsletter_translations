@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "NLP Newsletter: NLP Paper Summaries, Learning to Simulate, Transformers Notebooks, Med7, Measuring Compositional Generalization, Neural Tangents,…"
-author: billy_rick
-excerpt: "In this issue, we cover topics that range from improving how to measure compositional generalization to a computer vision PyTorch library to a state-of-the-art physics simulator."
+author: VictorGarritano
+excerpt: "Nessa edição, são abordados assuntos como melhorias na avaliação da compositional generalization, bibliotecas de visão computacional baseadas no PyTorch e um simulador físico estado-da-arte."
+
 modified:
 comments: true
 tags: [nlp_newsletter]
@@ -14,7 +15,7 @@ image:
 
 \\
 
-Seja muito bem-vindo a sétima edição da NLP Newsletter. Esperamos que você tenha um dia incrível e que você as pessoas que você ama estejam em segurança nessas semanas difícies. Nós decidimos publicar essa edição na esperança de trazer mais alegria aos nossos leitores. Sendo assim, por favor leia a Newsletter durante o seu tempo livre. Nesse momento, é importante mantermos o foco no que é a verdadeira prioridade - nossa família e amigos. ❤️ 💛 💚
+Seja muito bem-vindo a sétima edição da NLP Newsletter. Esperamos que você tenha um dia incrível e que você as pessoas que você ama estejam em segurança nessas semanas difíceis. Nós decidimos publicar essa edição na esperança de trazer mais alegria aos nossos leitores. Sendo assim, por favor leia a Newsletter durante o seu tempo livre. Nesse momento, é importante mantermos o foco no que é a verdadeira prioridade - nossa família e amigos. ❤️ 💛 💚
 
 <!-- Welcome to the 7th issue of the NLP Newsletter. I hope you are having a wonderful day and that you and your loved ones are safe in these difficult times. We decided to publish this newsletter to bring some joy to our readers so please read when you have free time. For now, let’s keep focused on the things that are of top priority— our families and friends. ❤️ 💛 💚 -->
 
@@ -32,7 +33,7 @@ All French and Chinese translations for the previous issues of the NLP Newslette
 
 \\
 
-Nós criamos recentemente dois repositórios no Github que contêm [resumos de artigos de NLP](https://github.com/dair-ai/nlp_paper_summaries) e [notebooks com Pytorch](https://github.com/dair-ai/pytorch_notebooks) para que você possa começar a ter experiência com redes neurais.
+Nós criamos recentemente dois repositórios no Github que contêm [resumos de artigos de NLP](https://github.com/dair-ai/nlp_paper_summaries) e [notebooks com PyTorch](https://github.com/dair-ai/pytorch_notebooks) para que você possa começar a ter experiência com redes neurais.
 
 <!-- We recently created two GitHub repositories that contain [NLP paper summaries](https://github.com/dair-ai/nlp_paper_summaries) and [PyTorch notebooks](https://github.com/dair-ai/pytorch_notebooks) to get you started with neural networks. -->
 
@@ -43,7 +44,7 @@ Nós criamos recentemente dois repositórios no Github que contêm [resumos de a
 
 \\
 
-No contexto de Aprendizado de Máquina, *compositional generalization* se refere a habilidade de representar o conhecimento aprendido com a base de dados e aplicá-lo a novos e diferentes contextos. Até o presente momento, não estava claro como medir essa composicionalidade nas redes neurais. Recentemente, o time de IA da Goole [apresentou](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) um dos maiores *benchmarks* para *compositional generalization* utilizando tarefas como *question answering* e *semantic parsing*. A imagem abaixo apresenta um exemplo do modelo proposto untilizando os chamados *átomos* (unidades utilizadas para se gerar os exemplos) para que sejam produzidos *compostos* (novas combinações dos átomos). A ideia deste trabalho é construir bases de treino e teste que combinam exemplos que possuem a mesma distribuição pelos diferentes *átomos* mas com distribuições diferentes sobre os *compostos*. Os autores argumentam que essa é uma maneira mais confiável de se testar a *compositional generalization*.
+No contexto de Aprendizado de Máquina, *compositional generalization* se refere a habilidade de representar o conhecimento aprendido com a base de dados e aplicá-lo a novos e diferentes contextos. Até o presente momento, não estava claro como medir essa composicionalidade nas redes neurais. Recentemente, o time de IA da Google [apresentou](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) um dos maiores *benchmarks* para *compositional generalization* utilizando tarefas como *question answering* e *semantic parsing*. A imagem abaixo apresenta um exemplo do modelo proposto utilizando os chamados *átomos* (unidades utilizadas para se gerar os exemplos) para que sejam produzidos *compostos* (novas combinações dos átomos). A ideia deste trabalho é construir bases de treino e teste que combinam exemplos que possuem a mesma distribuição pelos diferentes *átomos* mas com distribuições diferentes sobre os *compostos*. Os autores argumentam que essa é uma maneira mais confiável de se testar a *compositional generalization*.
 
 <!-- In the context of machine learning, compositional generalization is the ability to learn to represent meaning and in turn sequences (novel combinations) from what’s learned in the training set. To this date, it is not clear how to properly measure compositionality in neural networks. A Google AI team [proposes](https://ai.googleblog.com/2020/03/measuring-compositional-generalization.html) one of the largest benchmarks for compositional generalization using tasks such as question answering and semantic parsing. The picture below shows an example of the proposed model using atoms (produce, direct, etc.) to produce novel compounds, i.e., combinations of atoms. The idea of this work is to produce a train-test split that contains examples that share similar atoms (building blocks to generate examples) distribution but different compound distribution (the composition of atoms). The authors claim that is a more reliable way to test for compositional generalization. -->
 
@@ -89,7 +90,7 @@ Numa nova iniciativa da dar.ai, a [NLP Research Highlights](https://medium.com/d
 
 \\
 
-Nos últimos meses, as *Graph Neural Networks (GNNs)* (redes neurais que operam sobre redes) foram um assunto recorrente nas edições da *Newsletter*, devido a sua efetividade em tarefas não só da área de NLP como também em genômica e materiais. Um [artigo](https://arxiv.org/abs/2002.09405) publicado recentemente, propõe um *framework* geral baseado em GNNs que é capaz de realizar simulações físicas em diferentes cenários, como fluidos e materiais maleáveis. Os autores argumentam que eles obtiveram um desempenho estado-da-arte nesses diferentes contextos e que a abordagem proposta é possivelmente o melhor simulador treinado da atualmente. Os experimentos realizados incluem a simulação de materiais como fluidos viscosos sobre a água e outras interações com objetos rígidos. Também foi testado um modelo pré-treinado em tarefas *out-of-distribution* e os resultados obtidos foram bastante promissores, evidenciando o potencial de generalização para da abordagens para outros cenários. 
+Nos últimos meses, as *Graph Neural Networks (GNNs)* (redes neurais que operam sobre redes) foram um assunto recorrente nas edições da *Newsletter*, devido a sua efetividade em tarefas não só da área de NLP como também em genômica e materiais. Um [artigo](https://arxiv.org/abs/2002.09405) publicado recentemente, propõe um *framework* geral baseado em *GNNs* que é capaz de realizar simulações físicas em diferentes cenários, como fluidos e materiais maleáveis. Os autores argumentam que eles obtiveram um desempenho estado-da-arte nesses diferentes contextos e que a abordagem proposta é possivelmente o melhor simulador treinado da atualmente. Os experimentos realizados incluem a simulação de materiais como fluidos viscosos sobre a água e outras interações com objetos rígidos. Também foi testado um modelo pré-treinado em tarefas *out-of-distribution* e os resultados obtidos foram bastante promissores, evidenciando o potencial de generalização para da abordagens para outros cenários. 
 
 <!-- In the past few months, we have been featuring a lot about Graph Neural Networks (GNNs) due to their effectiveness not only in NLP but in other areas such as genomics and materials. In a recent [paper](https://arxiv.org/abs/2002.09405), researchers propose a general framework based on graph networks that is able to learn simulations in different domains such as fluids and deformable materials. The authors claim that they achieve state-of-the-art performance across different domains and that their general-purpose approach is potentially the best-learned physics simulator to date. Experiments include the simulation of materials such as goop over water and other interactions with rigid obstacles. They also tested a pre-trained model on out-of-distribution tasks and found promising results that show the generalization of the framework to larger domains. -->
 
@@ -117,7 +118,7 @@ Recentemente, uma versão em japonês do BERT também foi [disponibilizada](http
 
 \\
 
-A DeepMind publicou suas [predições de estruturas](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) das proteínas que se ligam ao vírus causador da COVID-19, As predições foram obtidas diretamente do sistema AlphaFold, embora não tenham sido verificadas experimentalmente. A ideia é que essa publicações encorage outras contribuições que busquem entender melhor e vírus e suas funções.
+A DeepMind publicou suas [predições de estruturas](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) das proteínas que se ligam ao vírus causador da COVID-19, As predições foram obtidas diretamente do sistema AlphaFold, embora não tenham sido verificadas experimentalmente. A ideia é que essa publicações encoraje outras contribuições que busquem entender melhor e vírus e suas funções.
 
 <!-- DeepMind releases [computationally-predicted structures](https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19) for proteins linked with the virus related to COVID-19. The predictions are directly obtained from the AlphaFold systems but haven’t been experimentally verified. The idea with this release is to encourage contributions that aim to better understand the virus and how it functions. -->
 
@@ -151,7 +152,7 @@ A Google AI [publicou](https://ai.googleblog.com/2020/03/toward-human-centered-d
 
 \\
 
-Esse excelente [artigo do Tensorflow](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) apresenta um passo-a-passo para habilitar um sistema de *tracking* do rosto e das mãos diretamente no navegador utilizando o TensorFlow.js e o MediaPipe.
+Esse excelente [artigo do TensorFlow](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) apresenta um passo-a-passo para habilitar um sistema de *tracking* do rosto e das mãos diretamente no navegador utilizando o TensorFlow.js e o MediaPipe.
 
 <!-- This awesome [TensorFlow article](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html?linkId=83996111) provides a walkthrough of how to enable real-time face and hand tracking on the browser using TensorFlow.js and MediaPipe. -->
 
@@ -159,7 +160,7 @@ Esse excelente [artigo do Tensorflow](https://blog.tensorflow.org/2020/03/face-a
 
 ![](https://cdn-images-1.medium.com/max/800/0*XsRsB-tSOZo9yWOc.gif)
 
-*Créditos: Blog do Tensorflow*
+*Créditos: Blog do TensorFlow*
 
 
 # Ferramentas e Bases de Dados ⚙️
@@ -179,7 +180,7 @@ Nós criamos recentemente um [repositório]https://github.com/dair-ai/nlp_paper_
 
 \\
 
-A [Kornia](https://github.com/kornia/kornia) é uma biblioteca construída sobre o Pytorch que permite a utilização de uma série de operadores para visão computacional diferenciável utilizando o PyTorch. Algumas das funcionalidades incluem transformações em images, *depth estimation*, processamento de imagens em baixo-nível, dentre várias outras. O módulo é fortemente inspirado no OpenCV, com a diferença de ser focada em pesquisa, ao invés de aplicações prontas para produção.
+A [Kornia](https://github.com/kornia/kornia) é uma biblioteca construída sobre o PyTorch que permite a utilização de uma série de operadores para visão computacional diferenciável utilizando o PyTorch. Algumas das funcionalidades incluem transformações em images, *depth estimation*, processamento de imagens em baixo-nível, dentre várias outras. O módulo é fortemente inspirado no OpenCV, com a diferença de ser focada em pesquisa, ao invés de aplicações prontas para produção.
 
 <!-- [Kornia](https://github.com/kornia/kornia) is an open-source library built on top of PyTorch that allows researchers to use a set of operators for performing differentiable computer vision using PyTorch. Some capabilities include image transformations, depth estimation, and low-level image processing, to name a few. It is heavily inspired by OpenCV but the difference is that it is meant to be used for research as opposed to building production-ready applications. -->
 
@@ -267,7 +268,7 @@ Sabrina J. Mielke publicou um [artigo](https://sjmielke.com/jax-purify.htm) com 
 
 \\
 
-Nesse [*blog post*](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/), Ehud Reiter discorre sobre porquê nós ainda utilizamos técnicas de avaliação antigas como BLUE para mensusar o desempenho de modelos de NLP para taregas como tradução automática (*machine translation*). Como um pesquisador da área, ele conta sobre as implicações para técnicas que realizam a avaliação em tarefas de NLP mais recentes.
+Nesse [*blog post*](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/), Ehud Reiter discorre sobre porquê nós ainda utilizamos técnicas de avaliação antigas como BLUE para mensurar o desempenho de modelos de NLP para taregas como tradução automática (*machine translation*). Como um pesquisador da área, ele conta sobre as implicações para técnicas que realizam a avaliação em tarefas de NLP mais recentes.
 
 <!-- In this [blog post](https://ehudreiter.com/2020/03/02/why-use-18-year-old-bleu/), Ehud Reiter talks about why we still use old evaluation techniques like BLUE for evaluating NLP models for tasks like machine translation. As a researcher in the space, he also expresses the implications for techniques that perform the evaluation on more recent tasks. -->
 
@@ -285,7 +286,7 @@ O [BART](https://arxiv.org/abs/1910.13461) é um novo modelo proposto pelo Faceb
 
 \\
 
-Madison May escreveu recentement um [compilado](https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/) bastante interessante descrevendo estratégias para melhorar abordagens baseadas em Transformers, que incluem *Sparse Transformers*, *Adaptive Span Transformers*, *Transformer-XL*, *compressive Transformers*, *Reformer*, e *routing transformer*. Alguns dos modelos já haviam aparecido em [publicações](https://medium.com/dair-ai) da dar.ai e na lista de [resumos de artigos](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a).
+Madison May escreveu recentemente um [compilado](https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/) bastante interessante descrevendo estratégias para melhorar abordagens baseadas em Transformers, que incluem *Sparse Transformers*, *Adaptive Span Transformers*, *Transformer-XL*, *compressive Transformers*, *Reformer*, e *routing transformer*. Alguns dos modelos já haviam aparecido em [publicações](https://medium.com/dair-ai) da dar.ai e na lista de [resumos de artigos](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a).
 
 <!-- Madison May recently wrote an interesting [survey](https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/) describing ways to improve Transformer based approaches, which include Sparse Transformers, Adaptive Span Transformers, Transformer-XL, compressive Transformers, Reformer, and routing transformer. We also touched on some of these topics in the dair.ai [publication](https://medium.com/dair-ai) and in this list of [paper summaries](https://medium.com/dair-ai/nlp-research-highlights-cd522b21b01a). -->
 
@@ -294,7 +295,7 @@ Madison May escreveu recentement um [compilado](https://www.pragmatic.ml/a-surve
 
 \\
 
-Apesar da fluência impressionate na escrita automática de texto evidenciada no ano passado, continua sendo um desafo controlar atributos como estrutura ou conteúdo em textos gerados por modelos. Numa [postagem recente](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discute o progresso recente e as perspectivas na área de geração de texto parametrizável, como o modelo GPT-2 da Hugging Face refinado no arXiv e o T5 da Google, além do CTRL da Salesforce e o PPLM do time de IA da Uber.
+Apesar da fluência impressionante na escrita automática de texto evidenciada no ano passado, continua sendo um desafio controlar atributos como estrutura ou conteúdo em textos gerados por modelos. Numa [postagem recente](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discute o progresso recente e as perspectivas na área de geração de texto parametrizável, como o modelo GPT-2 da Hugging Face refinado no arXiv e o T5 da Google, além do CTRL da Salesforce e o PPLM do time de IA da Uber.
 
 <!-- Despite the impressive fluency automatic text writing has exhibited in the past year, it is still challenging to control attributes like structure or content of the machine-written text. In a [recent blog post](https://creatext.ai/blog-posts/controllable-text-generation), Manuel Tonneau discusses the recent progress and the perspectives in the field of controllable text generation, from Hugging Face’s GPT-2 model fine-tuned on arXiv to Google’s T5, with mentions of Salesforce’s CTRL and Uber AI’s PPLM. -->
 
@@ -326,7 +327,7 @@ A Hugging Face publicou uma coleção de [notebooks no Colab](https://github.com
 
 \\
 
-Confira esse [curso grátis de ~7 horas](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/) sobre o Tensorflow 2.0, onde são cobertos tópicos como o básico de redes neurais, NLP com redes neurais recorrentes (RNNs) e uma introdução ao Aprendizado por Reforço.
+Confira esse [curso grátis de ~7 horas](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/) sobre o TensorFlow 2.0, onde são cobertos tópicos como o básico de redes neurais, NLP com redes neurais recorrentes (RNNs) e uma introdução ao Aprendizado por Reforço.
 
 <!-- Check out this [~7-hour free course](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/) on TensorFlow 2.0 containing topics that range from basic neural networks to NLP with RNNs to an introduction to reinforcement learning. -->
 
@@ -334,14 +335,14 @@ Confira esse [curso grátis de ~7 horas](https://www.freecodecamp.org/news/massi
 ***DeepMind: The Podcast***
 
 \\
-A DeepMind liberou todos os episódios (numa [playlist no YouTube](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj)) do seu *podcast* com cientistas, pesquisadores e engenheiros, onde são discutidos tópicos como *Aritifical General Intelligence, neurociência e robótica.
+A DeepMind liberou todos os episódios (numa [playlist no YouTube](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj)) do seu *podcast* com cientistas, pesquisadores e engenheiros, onde são discutidos tópicos como *Artificial General Intelligence, neurociência e robótica.
 
 \\
 ***Cursos de Machine Learning and Deep Learning***
 
 \\
 
-A Berkeley está disponibilizando publicamente o [plano de estudos](https://sites.google.com/view/berkeley-cs294-158-sp20/home) do seu curso em "*Deep Unsupervised Learning*", focado principalmente nos aspectos teóriocs do *self-supervised learning* e em modelos generativos. Outros tópicos incluem modelos de variáveis latentes, modelos autoregressivos e *flow models*. As aulas e os *slides* também estão disponíveis.
+A Berkeley está disponibilizando publicamente o [plano de estudos](https://sites.google.com/view/berkeley-cs294-158-sp20/home) do seu curso em "*Deep Unsupervised Learning*", focado principalmente nos aspectos teóricos do *self-supervised learning* e em modelos generativos. Outros tópicos incluem modelos de variáveis latentes, modelos autorregressivos e *flow models*. As aulas e os *slides* também estão disponíveis.
 
 <!-- Berkeley is publicly releasing the [entire syllabus](https://sites.google.com/view/berkeley-cs294-158-sp20/home) for its course on “Deep Unsupervised Learning” mainly focusing on the theoretical aspects of self-supervised learning and generative models. Some topics include latent variable models, autoregressive models, flow models, and self-supervised learning, to name a few. Youtube videos and slides are available. -->
 
@@ -353,7 +354,7 @@ Nós também encontramos essa [lista impressionante](https://www.reddit.com/r/Ma
 
 \\
 
-E aqui está um outro curso entitulado [“Introduction to Machine Learning"](https://compstat-lmu.github.io/lecture_i2ml/index.html) que aborda assuntos como regressão supervisionada, avaliação de desempenho, *random forests*, ajuste de parâmetros, dicas práticas e muito mais.
+E aqui está um outro curso intitulado [“Introduction to Machine Learning"](https://compstat-lmu.github.io/lecture_i2ml/index.html) que aborda assuntos como regressão supervisionada, avaliação de desempenho, *random forests*, ajuste de parâmetros, dicas práticas e muito mais.
 
 <!-- And here is another course called [“Introduction to Machine Learning](https://compstat-lmu.github.io/lecture_i2ml/index.html)” which includes topics such as supervised regression, performance evaluation, random forests, parameter tuning, practical advice, and much more. -->
 
