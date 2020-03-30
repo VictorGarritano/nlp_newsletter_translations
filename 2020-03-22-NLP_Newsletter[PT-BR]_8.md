@@ -87,24 +87,31 @@ O [Dreamer](https://ai.googleblog.com/2020/03/introducing-dreamer-scalable.html)
 
 *Source:* [*Google AI Blog*](https://ai.googleblog.com/2020/03/introducing-dreamer-scalable.html)
 
-# Creativity, Ethics, and Society 🌎
+# Criatividade, Ética e Sociedade 🌎
 
 ***COVID-19 Open Research Dataset (CORD-19)***
 
 \\
-In an effort to encourage the use of AI to fight COVID-19, the Allen Institute of AI published the [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research), a free and open resource to promote global research collaboration. The dataset contains thousands of scholarly articles that can allow NLP inspired research to obtain insights that can help in the fight against [COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019).
+Num esforço para encorajar a utilização de AI na luta contra a COVID-19, o *Allen Institute of AI* publicou o [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research), um recurso publicamente disponível que busca promover colaboração global. A base de dados contêm milhares de artigos que permitem a obtenção de *insights*, através do emprego de técnicas de NLP, que podem ajudar na luta contra o coronavírus e a [doença](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) causada por ele.
+
+<!-- In an effort to encourage the use of AI to fight COVID-19, the Allen Institute of AI published the [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research), a free and open resource to promote global research collaboration. The dataset contains thousands of scholarly articles that can allow NLP inspired research to obtain insights that can help in the fight against [COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019). -->
 
 \\
 ***SECNLP: A survey of embeddings in clinical natural language processing***
 
 \\
-[SECNLP](https://www.sciencedirect.com/science/article/pii/S1532046419302436) is a survey paper that includes a detailed overview of a wide variety of NLP methods and techniques applied in the clinical domain. The overview emphasizes mostly on embedding methods, problems/challenges addressed with embeddings, and discussion of future research directions.
+
+O [SECNLP](https://www.sciencedirect.com/science/article/pii/S1532046419302436) é um *survey* que inclui uma revisão detalhada de uma ampla gama de técnicas de NLP aplicadas no contexto de saúde. O trabalho foca principalmente em métodos de *embedding*, problemas/desafios que essas representações buscam resolver, e uma discussão sobre possíveis direções de pesquisas.
+
+<!-- [SECNLP](https://www.sciencedirect.com/science/article/pii/S1532046419302436) is a survey paper that includes a detailed overview of a wide variety of NLP methods and techniques applied in the clinical domain. The overview emphasizes mostly on embedding methods, problems/challenges addressed with embeddings, and discussion of future research directions. -->
 
 \\
 ***AI for 3D Generative Design***
 
 \\
-This [article](https://blog.insightdatascience.com/ai-for-3d-generative-design-17503d0b3943) covers an approach that was used to generate 3D objects from natural language descriptions. The idea is to create a solution that allows a designer to quickly reiterate in the design process and be able to explore more broadly the design space. After creating a knowledge base of the design space consisting of 3D models and text descriptions, two autoencoders (see figure below) were used to encode that knowledge in a way that can be interacted with intuitively. The model put together can then accept a text description and generate a 3D design, try it out in this [demo](https://insight2020a.streamlit.io/starstorms9/shape/).
+Essa [postagem](https://blog.insightdatascience.com/ai-for-3d-generative-design-17503d0b3943) apresenta uma abordagem utilizada para a geração de objetos de objetos 3D a partir de descrições em linguagem natural. A ideia é criar um solução que permita ao designer repetir o processo de criação de maneira mais ágil e explorar mais possibilidades. Após a criação de uma base de conhecimento do "espaço de design" composto de modelos 3D e descrições textuais, dois *autoencoders* (como exemplificado na Figura abaixo) são utilizados para codificar o conhecimento de maneira intuitiva. Com isso, o modelo é capaz de gerar um design 3D a partir de uma legenda, como se pode conferir nessa [demonstração](https://insight2020a.streamlit.io/starstorms9/shape/).
+
+<!-- This [article](https://blog.insightdatascience.com/ai-for-3d-generative-design-17503d0b3943) covers an approach that was used to generate 3D objects from natural language descriptions. The idea is to create a solution that allows a designer to quickly reiterate in the design process and be able to explore more broadly the design space. After creating a knowledge base of the design space consisting of 3D models and text descriptions, two autoencoders (see figure below) were used to encode that knowledge in a way that can be interacted with intuitively. The model put together can then accept a text description and generate a 3D design, try it out in this [demo](https://insight2020a.streamlit.io/starstorms9/shape/). -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*pbBv2Wa5QX7lUufY.png)
