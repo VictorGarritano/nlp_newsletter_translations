@@ -53,7 +53,7 @@ O *Grand Tour* é um método linear (em contraste com outras técnicas não-line
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*XYCRZOzslb-ZRYlmtHV0Ng.png)
 
-*Source:* [*Distill*](https://distill.pub/2020/grand-tour/)
+*Fonte:* [*Distill*](https://distill.pub/2020/grand-tour/)
 
 \\
 ***Meta-Learning Initializations for Low-Resource Drug Discovery***
@@ -85,7 +85,7 @@ O [Dreamer](https://ai.googleblog.com/2020/03/introducing-dreamer-scalable.html)
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*DOlPDgvNu1kpTeogcLve-A.png)
 
-*Source:* [*Google AI Blog*](https://ai.googleblog.com/2020/03/introducing-dreamer-scalable.html)
+*Fonte:* [*Google AI Blog*](https://ai.googleblog.com/2020/03/introducing-dreamer-scalable.html)
 
 # Criatividade, Ética e Sociedade 🌎
 
@@ -116,21 +116,25 @@ Essa [postagem](https://blog.insightdatascience.com/ai-for-3d-generative-design-
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*pbBv2Wa5QX7lUufY.png)
 
-[*Source*](https://blog.insightdatascience.com/ai-for-3d-generative-design-17503d0b3943)
+[*Fonte*](https://blog.insightdatascience.com/ai-for-3d-generative-design-17503d0b3943)
 
 
-# Tools and Datasets ⚙️
+# Ferramentas e Bases de Dados ⚙️
 
 ***Stanza — A Python NLP Library for Many Human Languages***
 
 \\
-The Stanford NLP Group releases [Stanza](https://stanfordnlp.github.io/stanza/) (formerly StanfordNLP), a Python NLP library that provides out-of-the-box text analytic tools for more than 70 languages. Capabilities include tokenization, multi-word token expansion, lemmatization, POS, NER, and much more. The tool is built on top of the PyTorch library with support for using GPU and pretrained neural models. [Explosion](https://github.com/explosion/spacy-stanza) has also built a wrapper around Stanza that allows you to interact with Stanza models as a spaCy pipeline.
+O grupo de NLP de Stanford disponibilizou a [Stanza](https://stanfordnlp.github.io/stanza/) (denominada anteriormente como StanfordNLP), uma biblioteca em Python que oferece ferramentas de análise para mais de 70 idiomas. As funcionalidades incluem tokenização, *multi-word token expansion*, lematização, POS tagging, Reconhecimento de Entidades Nomeadas e muito mais. A biblioteca é baseada no PyTorch, com suporte a utilização em GPUs e modelos de redes neurais pré-treinadas. A [Explosion](https://github.com/explosion/spacy-stanza) já criou um *wrapper* para a Stanza, possibilitando sua utilização como um componente do Pipeline do spaCy.
+
+<!-- The Stanford NLP Group releases [Stanza](https://stanfordnlp.github.io/stanza/) (formerly StanfordNLP), a Python NLP library that provides out-of-the-box text analytic tools for more than 70 languages. Capabilities include tokenization, multi-word token expansion, lemmatization, POS, NER, and much more. The tool is built on top of the PyTorch library with support for using GPU and pretrained neural models. [Explosion](https://github.com/explosion/spacy-stanza) has also built a wrapper around Stanza that allows you to interact with Stanza models as a spaCy pipeline. -->
 
 \\
 ***GridWorld Playground***
 
 \\
-Pablo Castro created an interesting [website](https://gridworld-playground.glitch.me/) that provides a playground for creating a Grid World environment to observe and test how a reinforcement learning agent tries to solve the Grid World. Some features include the ability to change the learning/environment parameters in real-time, change the position of the agent, and transfer values between two agents.
+Pablo Castro criou esse [site interessante](https://gridworld-playground.glitch.me/) que implementa um *playground* para a criação de ambientes em grade, com o objetivo de observar e testar como agentes de aprendizado por reforço tentam chegar ao objetivo, utilizando a técnica do *Q-Learning*. Dentre as funcionalidades, estão inclusas a habilidade de mudar os parâmetros do ambiente e de aprendizado em tempo real, mudar a posição dos agentes, e transferir *value functions* entre os dois. 
+
+<!-- Pablo Castro created an interesting [website](https://gridworld-playground.glitch.me/) that provides a playground for creating a Grid World environment to observe and test how a reinforcement learning agent tries to solve the Grid World. Some features include the ability to change the learning/environment parameters in real-time, change the position of the agent, and transfer values between two agents. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*D1e6ixTEONl21t0UNmcaog.png)
@@ -139,18 +143,22 @@ Pablo Castro created an interesting [website](https://gridworld-playground.glitc
 ***X-Stance: A Multilingual Multi-Target Dataset for Stance Detection***
 
 \\
-[*Stance detection*](http://nlpprogress.com/english/stance_detection.html) is the extraction of a subject's reaction made to an actor’s claim which can be used for fake news assessment. Jannis Vamvas and Rico Sennrich recently published a [large-scale stance detection dataset](https://arxiv.org/abs/2003.08385) consisting of written text by electoral candidates in Switzerland. Multiple languages are available in the texts which could potentially lead to cross-lingual evaluations on the task of stance detection. The authors also propose the use of a multilingual BERT that achieves satisfactory performance on zero-shot cross-lingual and cross-target transfer. Learning across targets, in particular, is a challenging task so the authors used a simple technique involving standardized targets to train a single model on all the issues at once.
+[*Stance detection*](http://nlpprogress.com/english/stance_detection.html) consiste na identificação do posicionamento de um sujeito frente a uma declaração de uma ator, podendo ser utilizada na avaliação de notícias falsas. Jannis Vamvas e Rico Sennrich disponibilizaram recentemente uma [base de dados de larga-escala](https://arxiv.org/abs/2003.08385) composta por textos escritos por candidatos das eleições na Suíça. Múltiplos idiomas estão disponíveis na base, o que possibilita a avaliação da tarefa de detecção de posicionamento em contextos multilíngues. Os autores também propuseram a utilização de um modelo BERT multilíngue, o qual apresentou um desempenho satisfatório nos cenários *zero-shot cross-lingual* and *cross-target transfer*.
+
+<!-- [*Stance detection*](http://nlpprogress.com/english/stance_detection.html) is the extraction of a subject's reaction made to an actor’s claim which can be used for fake news assessment. Jannis Vamvas and Rico Sennrich recently published a [large-scale stance detection dataset](https://arxiv.org/abs/2003.08385) consisting of written text by electoral candidates in Switzerland. Multiple languages are available in the texts which could potentially lead to cross-lingual evaluations on the task of stance detection. The authors also propose the use of a multilingual BERT that achieves satisfactory performance on zero-shot cross-lingual and cross-target transfer. Learning across targets, in particular, is a challenging task so the authors used a simple technique involving standardized targets to train a single model on all the issues at once. -->
 
 \\
 ***Create interactive textual heatmaps for Jupyter notebooks***
 
 \\
-Andreas Madsen created a Python library called [TextualHeatMap](https://github.com/AndreasMadsen/python-textualheatmap) that can be used to render visualizations that help to understand what parts of a sentence the model is using to predict the next word such as in language models.
+Andreas Madsn criou uma biblioteca Python chamada [TextualHeatMap](https://github.com/AndreasMadsen/python-textualheatmap), que pode ser utilizada para gerar visualizações que auxiliam no entendimento de quais partes de uma frase estão sendo utilizadas pelo modelo na hora de predizer a próxima palavra, como ocorre em modelos de linguagem. 
+
+<!-- Andreas Madsen created a Python library called [TextualHeatMap](https://github.com/AndreasMadsen/python-textualheatmap) that can be used to render visualizations that help to understand what parts of a sentence the model is using to predict the next word such as in language models. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*IY3tKkznwarnRxdo.gif)
 
-*Source:* [*textualheatmap*](https://github.com/AndreasMadsen/python-textualheatmap)
+*Fonte:* [*textualheatmap*](https://github.com/AndreasMadsen/python-textualheatmap)
 
 
 # Articles and Blog posts ✍️
