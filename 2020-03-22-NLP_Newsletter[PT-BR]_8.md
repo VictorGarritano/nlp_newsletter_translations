@@ -181,24 +181,30 @@ Motivado pela falta de um guia acessível para o treinamento do zero (*from scra
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*PFPgjeUmzvazglqg.png)
 
-# Education 🎓
+# Educação 🎓
 
 ***Getting started with JAX (MLPs, CNNs & RNNs)***
 
 \\
-Robert Lange recently published a comprehensive [tutorial](https://roberttlange.github.io/posts/2020/03/blog-post-10/) on how to train a GRU-RNN with JAX. In our [previous newsletter](https://medium.com/dair-ai/nlp-newsletter-nlp-paper-summaries-learning-to-simulate-transformers-notebooks-med7-measuring-de61fadd9db0), we also shared a couple of resources related to JAX.
+Robert Lange publicou recentemente um [tutorial](https://roberttlange.github.io/posts/2020/03/blog-post-10/) ilustrando como treinar uma *Gated Recurrent Unit (GRU)* com a nova biblioteca da Google, a JAX. Na [edição passada da *Newsletter*](https://victorgarritano.github.io/personal_blog/nlp_newsletter/2020/03/16/NLP_Newsletter-PT-BR-_NLP_7.html), nós abordamos alguns tópicos relacionados à biblioteca.
+
+<!-- Robert Lange recently published a comprehensive [tutorial](https://roberttlange.github.io/posts/2020/03/blog-post-10/) on how to train a GRU-RNN with JAX. In our [previous newsletter](https://medium.com/dair-ai/nlp-newsletter-nlp-paper-summaries-learning-to-simulate-transformers-notebooks-med7-measuring-de61fadd9db0), we also shared a couple of resources related to JAX. -->
 
 \\
 ***NLP for Developers: Word Embeddings***
 
 \\
-Rachael Tatman published the first episode of a new series called NLP for Developers that will cover best practices on how to apply a wide range of NLP methods. The [first episode](http://youtube.com/watch?v=oUpuABKoElw&feature=emb_logo) includes an introduction to word embedding and how they are used and other common issues to avoid when applying them.
+Rachael Tatman publicou o primeiro episódio da sua nova série, a *NLP for Developers*, que cobrirá as melhores práticas relacionadas à aplicação de diversos métodos de NLP. O [primeiro vídeo](http://youtube.com/watch?v=oUpuABKoElw&feature=emb_logo) apresenta uma introdução à *word embeddings* e como são utilizados, além de dicas para evitar erros comuns quando trabalhamos com esse tipo de representação.
+
+<!-- Rachael Tatman published the first episode of a new series called NLP for Developers that will cover best practices on how to apply a wide range of NLP methods. The [first episode](http://youtube.com/watch?v=oUpuABKoElw&feature=emb_logo) includes an introduction to word embedding and how they are used and other common issues to avoid when applying them. -->
 
 \\
 ***Thomas Wolf: An Introduction to Transfer Learning and HuggingFace***
 
 \\
-Thomas Wolf presented his [talk](https://www.youtube.com/watch?v=rEGB7-FlPRs&feature=youtu.be) on Transfer Learning for the NLP Zurich meetup providing a great introduction to transfer learning in NLP. The talk includes an overview of recent NLP breakthroughs and an introduction to Transformers and Tokenizers, two of the most popular libraries released by the HuggingFace team and contributors.
+Thomas Wolf apresentou essa [palestra](https://www.youtube.com/watch?v=rEGB7-FlPRs&feature=youtu.be) sobre *Transfer Learning* o *meetup* NLP Zurich, fornecendo uma excelente introdução ao assunto para o contexto de NLP. A palestra apresenta uma visão geral dos momentos mais importantes para a área, além de uma introdução às bibliotecas *Transformers* e *Tokenizers*, dois dos módulos mais populares da Hugging Face.
+
+<!-- Thomas Wolf presented his [talk](https://www.youtube.com/watch?v=rEGB7-FlPRs&feature=youtu.be) on Transfer Learning for the NLP Zurich meetup providing a great introduction to transfer learning in NLP. The talk includes an overview of recent NLP breakthroughs and an introduction to Transformers and Tokenizers, two of the most popular libraries released by the HuggingFace team and contributors. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*PMZ8ptBWo4wZ432kr-FXqA.png)
