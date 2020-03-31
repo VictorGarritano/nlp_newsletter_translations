@@ -2,7 +2,7 @@
 layout: post
 title: "NLP Newsletter #8 [EN]: NeRF, CORD-19, Stanza, Text Generation 101, Notebooks, SECNLP, Dreamer,…"
 author: VictorGarritano
-excerpt: "This issue covers topics that range from synthesizing novel views of complex scenes to tutorials for text generation and transfer learning to survey papers on contextual embeddings and pretrained language models."
+excerpt: "Essa edição cobre tópicos como produção de novas perspectivas em cenários complexos, tutoriais para geração de textos, e coletâneas de artigos sobre embeddings contextualizados e modelos de linguagem pré-treinados."
 modified:
 comments: true
 tags: [nlp_newsletter]
@@ -240,7 +240,7 @@ Esse [*blog post*](https://www.datasciencecentral.com/profiles/blogs/10-timeless
 
 ----------
 
-Se você conhecer bases de dados, projetos, postagens, tutoriais ou artigos que você gostaria de ver na próxima edição da *Newsletter*, sinta-se a vontade para nos contactar através do e-mail ellfae@gmail.com ou de uma [mensagem direta no twitter](https://twitter.com/omarsar0).
+Se você conhece bases de dados, projetos, postagens, tutoriais ou artigos que gostaria de ver na próxima edição da *Newsletter*, sinta-se a vontade para nos contactar através do e-mail ellfae@gmail.com ou de uma [mensagem direta no twitter](https://twitter.com/omarsar0).
 
 \\
 [*Inscreva-se*](https://dair.ai/newsletter/) *🔖 para receber as próximas edições na sua caixa de entrada!*
