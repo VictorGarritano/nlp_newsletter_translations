@@ -210,25 +210,37 @@ Thomas Wolf apresentou essa [palestra](https://www.youtube.com/watch?v=rEGB7-FlP
 ![](https://cdn-images-1.medium.com/max/800/1*PMZ8ptBWo4wZ432kr-FXqA.png)
 
 
-# Noteworthy Mentions ⭐️
-
-Did you know that Google Sheets provides a free translation feature? Amit Chaudhary shares an [article](https://amitness.com/2020/02/back-translation-in-google-sheets/) that shows how to leverage the feature for back translation which is useful for augmenting your limited text corpus for NLP.
+# Menções Honrosas ⭐️
 
 \\
-New York NLP will be hosting an [online meetup](https://www.meetup.com/NY-NLP/events/269502774/) for a talk titled “Using Wikipedia and Wikidata for NLP” where the presenter will talk about how to leverage Wikipedia for different NLP projects and use cases.
+Você sabia que o Google Sheets fornece uma ferramenta de tradução gratuita? Amit Chaudhary compartilhou uma [postagem](https://amitness.com/2020/02/back-translation-in-google-sheets/) que mostra como utilizar essa funcionalidade para "tradução reversa", fornecendo uma maneira de aumentar a sua base de dados para tarefas de NLP.
+
+
+<!-- Did you know that Google Sheets provides a free translation feature? Amit Chaudhary shares an [article](https://amitness.com/2020/02/back-translation-in-google-sheets/) that shows how to leverage the feature for back translation which is useful for augmenting your limited text corpus for NLP. -->
 
 \\
-Lavanya Shukla wrote this nice [tutorial](https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw) on how to use PyTorch Lightning to optimize hyperparameters of a neural network while at the same time taking advantage of the simple code structures/styles provided in PyTorch Lightning. The resulting model and its performance using different hyper-parameters are visualized using the results produced by the WandB logger which can be provided as a logger parameter to a trainer object.
+A New York NLP estará organizando um [*meetup* online](https://www.meetup.com/NY-NLP/events/269502774/) para uma palestra entitulada *"Using Wikipedia and Wikidata for NLP"* onde será discutida como se beneficar dos dados dessas plataformas para diferentes projetos e casos de uso de NLP.
+
+<!-- New York NLP will be hosting an [online meetup](https://www.meetup.com/NY-NLP/events/269502774/) for a talk titled “Using Wikipedia and Wikidata for NLP” where the presenter will talk about how to leverage Wikipedia for different NLP projects and use cases. -->
 
 \\
-A group of researchers published a [study](https://arxiv.org/abs/2003.07845) investigating more in detail why batch normalization (BN) tends to degrade performance in Transformer based methods applied to different NLP tasks. Based on those findings, the authors propose a new approach called power normalization to deal with issues found in BN. The method outperforms both BN and layer normalization (commonly used these days) on a variety of NLP tasks.
+Lavanya Shukla escreveu esse [tutorial](https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw) sobre como utilizar a *PyTorch Lightning* para otimizar hiper-parâmetros de uma rede neural enquanto utilizamos funcionalidades de estrutura e estilo de código fornecidas pela biblioteca. O modelo resultante e sua performance utilizando diferentes combinações de hiper-parâmetros podem ser visualizados utilizando o *logger* WandB, que pode ser passado como parâmetro para o objeto responsável pelo treinamento do modelo.
+
+<!-- Lavanya Shukla wrote this nice [tutorial](https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw) on how to use PyTorch Lightning to optimize hyperparameters of a neural network while at the same time taking advantage of the simple code structures/styles provided in PyTorch Lightning. The resulting model and its performance using different hyper-parameters are visualized using the results produced by the WandB logger which can be provided as a logger parameter to a trainer object. -->
 
 \\
-This [blog post](https://www.datasciencecentral.com/profiles/blogs/10-timeless-reference-books) contains a long list of books to get you started with ML.
+Um grupo de pesquisadores publicou um [estudo](https://arxiv.org/abs/2003.07845) investigando de maneira mais aprofundada porquê a técnica de *batch normalization (BN)* tende a prejudicar a performance de modelos baseados no *Transformer* para diferentes tarefas de NLP. Com base nos comportamentos observados, os autores propuseram uma nova abordagem denominada *power normalization*. A técnica proposta apresenta um desempenho superior tanto ao *BN* quanto ao *layer normalization*, outra técnica amplamente utilizada atualmente.
+
+<!-- A group of researchers published a [study](https://arxiv.org/abs/2003.07845) investigating more in detail why batch normalization (BN) tends to degrade performance in Transformer based methods applied to different NLP tasks. Based on those findings, the authors propose a new approach called power normalization to deal with issues found in BN. The method outperforms both BN and layer normalization (commonly used these days) on a variety of NLP tasks. -->
+
+\\
+Esse [*blog post*](https://www.datasciencecentral.com/profiles/blogs/10-timeless-reference-books) apresenta uma extensa lista de livros para ajudar você a iniciar seus estudos e experiência com Aprendizado de Máquina.
+
+<!-- This [blog post](https://www.datasciencecentral.com/profiles/blogs/10-timeless-reference-books) contains a long list of books to get you started with ML. -->
 
 ----------
 
-If you have any datasets, projects, blog posts, tutorials, or papers that you wish to share in the next iteration of the NLP Newsletter, please free to reach out to me at ellfae@gmail.com or [send me a message on Twitter](https://twitter.com/omarsar0).
+Se você conhecer bases de dados, projetos, postagens, tutoriais ou artigos que você gostaria de ver na próxima edição da *Newsletter*, sinta-se a vontade para nos contactar através do e-mail ellfae@gmail.com ou de uma [mensagem direta no twitter](https://twitter.com/omarsar0).
 
 \\
-[*Subscribe*](https://dair.ai/newsletter/) *🔖 to the NLP Newsletter to receive future issues in your inbox.*
+[*Inscreva-se*](https://dair.ai/newsletter/) *🔖 para receber as próximas edições na sua caixa de entrada!*
