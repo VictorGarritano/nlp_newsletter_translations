@@ -161,18 +161,22 @@ Andreas Madsn criou uma biblioteca Python chamada [TextualHeatMap](https://githu
 *Fonte:* [*textualheatmap*](https://github.com/AndreasMadsen/python-textualheatmap)
 
 
-# Articles and Blog posts ✍️
+# Artigos e Postagens ✍️
 
 ***How to generate text: using different decoding methods for language generation with Transformers***
 
 \\
-HuggingFace published an [article](https://huggingface.co/blog/how-to-generate) explaining the different methods used for language generation in particular for Transformer based approaches. Among those techniques discussed are greedy search, beam search, sampling, top-k sampling, and top-p (nucleus) sampling. There are many articles like this out there but the authors spent more time explaining the practical side of these methods and how they can be applied via code snippets.
+A Hugging Face publicou um [artigo](https://huggingface.co/blog/how-to-generate) revisando diferentes técnicas utilizadas para a geração de texto, focando em abordagens baseadas no *Transformer*. São discutidos métodos como *beam search* e variações de processos de amostragem ("simples", "Top-K" e "Top-p"). Já foram publicadas diversas outras postagens sobre esse mesmo assunto, porém nessa os autores dedicaram um bom tempo explicando os aspectos práticos das técnicas e como elas podem ser utilizadas na biblioteca *Transformers*.
+
+<!-- HuggingFace published an [article](https://huggingface.co/blog/how-to-generate) explaining the different methods used for language generation in particular for Transformer based approaches. Among those techniques discussed are greedy search, beam search, sampling, top-k sampling, and top-p (nucleus) sampling. There are many articles like this out there but the authors spent more time explaining the practical side of these methods and how they can be applied via code snippets. -->
 
 \\
 ***Training RoBERTa from Scratch — The Missing Guide***
 
 \\
-Motivated by the lack of a comprehensive guide for training a BERT-like language model from scratch using the Transformer’s library, Marcin Zablocki shares this detailed [tutorial](https://zablo.net/blog/post/training-roberta-from-scratch-the-missing-guide-polish-language-model/). The guide shows how to train a transformer language model for the Polish language with tips on what common mistakes to avoid, data preparation, pretraining configuration, tokenization, training, monitoring training process, and sharing the model.
+Motivado pela falta de um guia acessível para o treinamento do zero (*from scratch*) de modelos de linguagem baseados no BERT utilizando a biblioteca *Transformers* da Hugging Face, Marcin Zablocki disponibilizou esse [tutorial detalhado](https://zablo.net/blog/post/training-roberta-from-scratch-the-missing-guide-polish-language-model/). O guia mostra como treinar um modelo de linguagem para o Polonês e traz várias dicas sobre como evitar erros comuns, preparação dos dados, configurações de pré-processamento, tokenização, treinamento, monitoramento do processo de treino e compartilhamento do modelo.
+
+<!-- Motivated by the lack of a comprehensive guide for training a BERT-like language model from scratch using the Transformer’s library, Marcin Zablocki shares this detailed [tutorial](https://zablo.net/blog/post/training-roberta-from-scratch-the-missing-guide-polish-language-model/). The guide shows how to train a transformer language model for the Polish language with tips on what common mistakes to avoid, data preparation, pretraining configuration, tokenization, training, monitoring training process, and sharing the model. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/0*PFPgjeUmzvazglqg.png)
