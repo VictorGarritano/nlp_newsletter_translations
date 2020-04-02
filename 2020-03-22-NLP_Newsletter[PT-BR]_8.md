@@ -31,8 +31,10 @@ image:
 \\
 Esse [artigo](https://arxiv.org/abs/2003.07278v1) fornece um compilado de metodologias para o aprendizado de *embeddings* contextualizados. Também estão inclusos uma revisão dos casos de uso da técnica para *transfer learning*, métodos de compressão de modelos e análises.
 
+\\
 Outro [trabalho](https://arankomatsuzaki.files.wordpress.com/2020/03/written_report.pdf) traz uma coleção de métodos utilizados para a melhoria de modelos de linguagem baseados no *Transformer*.
 
+\\
 E aqui está outra [coletânea](https://arxiv.org/pdf/2003.08271.pdf) de modelos de linguagem pré-treinados, que propõe uma taxonomia para modelos dessa natureza em NLP.
 
 <!-- This [paper](https://arxiv.org/abs/2003.07278v1) provides a light survey of approaches for learning contextual embeddings. It also includes a review of its applications for transfer learning, model compression methods, and model analyses. Another report involves a [summary](https://arankomatsuzaki.files.wordpress.com/2020/03/written_report.pdf) of methods used to improve Transformer based language models. Here is also another [comprehensive survey](https://arxiv.org/pdf/2003.08271.pdf) on pretrained language models which provides a taxonomy of NLP pretrained models. -->
@@ -150,7 +152,7 @@ A tarefa de [*Stance detection*](http://nlpprogress.com/english/stance_detection
 ***Create interactive textual heatmaps for Jupyter notebooks***
 
 \\
-Andreas Madsn criou uma biblioteca Python chamada [TextualHeatMap](https://github.com/AndreasMadsen/python-textualheatmap), que pode ser utilizada para gerar visualizações que auxiliam no entendimento de quais partes de uma frase estão sendo utilizadas pelo modelo na hora de predizer a próxima palavra, como ocorre em modelos de linguagem.
+Andreas Madsen criou uma biblioteca Python chamada [TextualHeatMap](https://github.com/AndreasMadsen/python-textualheatmap), que pode ser utilizada para gerar visualizações que auxiliam no entendimento de quais partes de uma frase estão sendo utilizadas pelo modelo na hora de predizer a próxima palavra, como ocorre em modelos de linguagem.
 
 <!-- Andreas Madsen created a Python library called [TextualHeatMap](https://github.com/AndreasMadsen/python-textualheatmap) that can be used to render visualizations that help to understand what parts of a sentence the model is using to predict the next word such as in language models. -->
 
