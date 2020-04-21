@@ -246,22 +246,27 @@ Andrej Karpathy disponibilizou recentemente uma biblioteca conhecida como [micro
 <!-- Andrej Karpathy recently released a library called [micrograd](https://github.com/karpathy/micrograd) which provides the ability to build and train a neural network using a simple and intuitive interface. In fact, he wrote the whole library in roughly 150 lines of code which he claims is the tiniest autograd engine there is. Ideally, such types of libraries can be used for educational purposes. -->
 
 
-# Articles and Blog posts ✍️
+# Artigos e Postagens ✍️
 
 \\
 ***The Transformer Family and Recent Developments***
 
 \\
-In a new and timely blog post, Lilian Weng summarizes some of the recent developments of the Transformer model. The [article](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html) provides nice notation, historical review, and the latest improvements such as longer attention span (Transformer XL), reduced computation and memory consumption.
+Numa nova e oportuna postagem, Lilian Weng resumiu alguns dos recentes avanços no modelo Transformer. O [artigo](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html) utiliza uma notação amigável, uma revisão da literatura e as últimas melhorias como atenção com contextos mais longos (Transformer XL) e redução nos requisitos computacionais e de memória. 
+
+<!-- In a new and timely blog post, Lilian Weng summarizes some of the recent developments of the Transformer model. The [article](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html) provides nice notation, historical review, and the latest improvements such as longer attention span (Transformer XL), reduced computation and memory consumption. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*i-4V-EIirg2cvGMVLd8BWA.png)
 
 \\
-Model compression is an important area of research in NLP due to the nature and large size of pretrained language models. Ideally, as these models continue to produce state-of-the-art results across a wide variety of NLP tasks it becomes important to reduce their computational needs so as to make them feasible in production. Madison May recently published another excellent [article](https://www.pragmatic.ml/a-survey-of-methods-for-model-compression-in-nlp/) summarizing a few methods used for model compression, particularly in NLP. Some of the main topics include pruning, graph optimizations, knowledge distillation, progressive module replacement, among others.
+A compressão de modelos é uma importante área de pesquisa em MLP, devido à natura e ao tamanho de modelos de linguagem pré-treinados. Idealmente, conforme os modelos produzem novos resultados estado-da-arte nas mais diferentes tarefas de NLP, torna-se importante reduzir seus requisitos computacionais, tornando sua utilização viável em produção. Madison May publicou recentemente outro excelente [artigo](https://www.pragmatic.ml/a-survey-of-methods-for-model-compression-in-nlp/) trazendo um visão geral de alguns métodos utilizados para compressão de modelos para NLP. Alguns dos tópicos principais incluem poda, otimização dos grafos de computação, destilação de conhecimento, substituição progressiva de módulos, entre outros.
+
+<!-- Model compression is an important area of research in NLP due to the nature and large size of pretrained language models. Ideally, as these models continue to produce state-of-the-art results across a wide variety of NLP tasks it becomes important to reduce their computational needs so as to make them feasible in production. Madison May recently published another excellent [article](https://www.pragmatic.ml/a-survey-of-methods-for-model-compression-in-nlp/) summarizing a few methods used for model compression, particularly in NLP. Some of the main topics include pruning, graph optimizations, knowledge distillation, progressive module replacement, among others. -->
 
 # Education 🎓
 
+\\
 ***Guest Lecture on Language Models by Alec Radford***
 
 \\
