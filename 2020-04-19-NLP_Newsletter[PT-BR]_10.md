@@ -118,53 +118,75 @@ Pesquisadores da Allen AI publicaram um novo modelo baseado no *Transformer*, de
 
 *Figura extraída de* [*Beltagy et al. (2020)*](https://arxiv.org/abs/2004.05150)
 
-# Creativity, Ethics, and Society 🌎
+# Criatividade, Ética e Sociedade 🌎
 
-***Reproducibility in ML***
+***Reprodutibilidade em ML***
 
-- Reproducibility has been an ongoing topic of discussion amongst the machine learning communities. In order to encourage more open, transparent and accessible science, there have been many efforts around reproducibility. If you want to understand where the field of machine learning stands in terms of reproducibility, check out this [publication](https://arxiv.org/abs/2003.12206) by Joelle Pineau and others.
+- A questão da reprodutibilidade vem sendo discutida ativamente pelas comunidades de aprendizado de máquina. Com o intuito de encorajar uma ciência mais aberta, transparente e acessível, diversos esforços vêm sendo realizados a favor dela. Se você quiser entender como está essa questão no campo de ML, confira essa [publicação](https://arxiv.org/abs/2003.12206) feita por Joelle Pineau, dentre outros.
 
-- More recently, and inspired by these efforts, the Papers With Code team (now part of Facebook AI) published a [blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501) explaining a useful [reproducibility checklist](https://github.com/paperswithcode/releasing-research-code) to “*facilitate reproducible research presented at major ML conferences*”. The checklist assesses code submission on the following:
+<!-- - Reproducibility has been an ongoing topic of discussion amongst the machine learning communities. In order to encourage more open, transparent and accessible science, there have been many efforts around reproducibility. If you want to understand where the field of machine learning stands in terms of reproducibility, check out this [publication](https://arxiv.org/abs/2003.12206) by Joelle Pineau and others. -->
+
+- Recentemente, e inspirado por esses esforços, o time do Papers With Code (que agora fazem parte do grupo de IA do Facebook) realizaram uma [postagem](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501) explicando uma [*checklist* de reprodutibilidade](https://github.com/paperswithcode/releasing-research-code) bem útil, com o objetivo de *"facilitar pesquisas reprodutíveis apresentadas nas principais conferências de ML"* (em tradução livre). A *checklist* avalia os códigos disponibilizados nos seguintes aspectos:
+
+<!-- - More recently, and inspired by these efforts, the Papers With Code team (now part of Facebook AI) published a [blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501) explaining a useful [reproducibility checklist](https://github.com/paperswithcode/releasing-research-code) to “*facilitate reproducible research presented at major ML conferences*”. The checklist assesses code submission on the following: -->
+
+1. **Dependências**: O repositório apresenta informações sobre as dependências ou instruções sobre como preparar o ambiente de desenvolvimento?
+
+2. **Códigos de treinamento**: O repositório fornece uma maneira de treinar o(s) modelo(s) descritos no artigo?
+
+3. **Códigos de Avaliação**: O repositório fornece um código para calcular o desempenho do(s) modelo(s) treinado(s) ou rodar os experimentos nos modelos?
+
+4. **Modelos pré-treinados**: O repositório fornece acesso gratuito aos parâmetros do modelo pré-treinado?
+
+5. **Resultados**: O repositório fornece uma tabela/gráfico com os principais resultados e o código para reproduzir esses resultados?
 
 ![](https://cdn-images-1.medium.com/max/800/1*BQH6F1J3TE1T_GREv5xSew.png)
 
-*Source:* [*Papers with Code*](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501)
+*Fonte:* [*Papers with Code*](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501)
 
+- Ainda nessa questão de ciência aberta e reprodutibilidade, aqui está uma postagem interessante, feita por um pesquisador de NLP, [oferecendo uma recompensa](https://twitter.com/srush_nlp/status/1245825437240102913?s=20) pela reprodução de resultados de um artigo que outro pesquisadores não conseguiu reproduzir.
 
-- On the topic of open science and reproducibility, here is an interesting post by an NLP researcher [offering](https://twitter.com/srush_nlp/status/1245825437240102913?s=20) a bounty for replicating results from a paper that another researcher couldn’t replicate.
-
-\\
-***Privacy and Security in NLP***
+<!-- - On the topic of open science and reproducibility, here is an interesting post by an NLP researcher [offering](https://twitter.com/srush_nlp/status/1245825437240102913?s=20) a bounty for replicating results from a paper that another researcher couldn’t replicate. -->
 
 \\
-Can a pretrained language model be stolen or does it impose any security implications when exposed for usage via APIs? In a new paper, researchers aim to test BERT-based APIs for security implications particularly regarding the use of queries to steal the model. In summary, they did found that an adversary can steal a fine-tuned model by just feeding gibberish sequences and fine-tuning their own model on the predicted labels of the victim model. Read more about model extraction attacks [here](http://www.cleverhans.io/2020/04/06/stealing-bert.html).
+***Privacidade e Segurança em NLP***
+
+\\
+Será que um modelo de linguagem pré-treinado pode ser roubado, ou sua exposição para uso via *API* pode trazer implicações de segurança? Em um novo artigo, pesquisadores testaram *APIs* de modelos baseados no BERT para implicações de segurança, no que diz respeito à utilização de consultas para roubo do modelo. Resumidamente, eles observaram que um adversário pode roubar um modelo refinado apenas utilizando sequências de palavras sem sentido e refinando o seu próprio modelo com as predições do modelo-alvo. Leia mais sobre ataques de extração de modelos [aqui](http://www.cleverhans.io/2020/04/06/stealing-bert.html).
+
+<!-- Can a pretrained language model be stolen or does it impose any security implications when exposed for usage via APIs? In a new paper, researchers aim to test BERT-based APIs for security implications particularly regarding the use of queries to steal the model. In summary, they did found that an adversary can steal a fine-tuned model by just feeding gibberish sequences and fine-tuning their own model on the predicted labels of the victim model. Read more about model extraction attacks [here](http://www.cleverhans.io/2020/04/06/stealing-bert.html). -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*K9ZD4USdovdyHXomB7csfA.png)
 
-Model extraction pipeline applied to a victim model trained on SQuAD ([Source](http://www.cleverhans.io/2020/04/06/stealing-bert.html)).
+Sistema de extração de modelos aplicado a um modelo-alvo treinado no SQuAD ([Fonte](http://www.cleverhans.io/2020/04/06/stealing-bert.html)).
 
 \\
-Another interesting [paper](https://arxiv.org/abs/2004.06660), accepted at ACL 2020, investigates whether pretrained language models are susceptible to attacks. The authors develop a *poisoning* method that is able to inject vulnerabilities into pretrained weights rendering these pretrained models vulnerable to serious threats. Due to this vulnerability, it is possible to show that these models expose backdoors that can be leveraged by an attacker to manipulate the model’s predictions by simply injecting any arbitrary keyword. To test this, pretrained models were used to perform downstream tasks that involved datasets injected with specific keywords meant to force the model to misclassify instances.
+Outro [artigo interessante](https://arxiv.org/abs/2004.06660), aceito na ACL 2020, investigou se modelos de linguagem pré-treinados são suscetíveis a ataques. Os autores desenvolveram um método de "envenenamento" que é capaz de injetar vulnerabilidades nos parâmetros pré-treinados, tornando os modelos vulneráveis à ameaças. Devido a essas vulnerabilidades, é possível mostrar que esses modelos expõem *backdoors* que podem ser aproveitadas por invasores para manipular as predições do modelo, simplesmente injetando qualquer palavra-chave arbitrária. Para testar esse comportamento, modelos pré-treinados foram utilizados em tarefas que envolviam bases de dados "corrompidas" com palavras-chave específicas feitas para forçar o modelos a classificar exemplos de maneira incorreta.
+
+<!-- Another interesting [paper](https://arxiv.org/abs/2004.06660), accepted at ACL 2020, investigates whether pretrained language models are susceptible to attacks. The authors develop a *poisoning* method that is able to inject vulnerabilities into pretrained weights rendering these pretrained models vulnerable to serious threats. Due to this vulnerability, it is possible to show that these models expose backdoors that can be leveraged by an attacker to manipulate the model’s predictions by simply injecting any arbitrary keyword. To test this, pretrained models were used to perform downstream tasks that involved datasets injected with specific keywords meant to force the model to misclassify instances. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*s4QscGOeDiN6tHOfM99pww.png)
 
-*Figure by* [*Kurita et al. (2020)*](https://arxiv.org/abs/2004.06660)
+*Figura extraída de* [*Kurita et al. (2020)*](https://arxiv.org/abs/2004.06660)
 
 \\
-***A COVID-19 series of AI-based applications and research***
+***Uma série de pesquisas e aplicações baseadas em IA para COVID-19***
+<!-- ***A COVID-19 series of AI-based applications and research*** -->
 
-- COVID-19 has proven one of the biggest challenges in modern times. Researchers from all over the world are trying to find ways to contribute and help in understanding COVID-19, from search engines to data set releases. Sebastian Ruder recently published a dedicated [issue](http://newsletter.ruder.io/issues/covid-19-edition-236509) of his newsletter highlighting a few interesting projects that AI researchers have been work on.
+- A COVID-19 provou-se como um dos maiores desafios dos tempos modernos. Pesquisadores de todas as partes do mundo tentam encontrar maneiras de contribuir e ajudar a entender a doenças, fornecendo desde ferramentas de busca até bases de dados. Sebastian Rudes publicou uma [edição dedicada](http://newsletter.ruder.io/issues/covid-19-edition-236509) da sua Newsletter destacando alguns projetos interessantes que pesquisadores de IA vêm desenvolvendo.
+<!-- - COVID-19 has proven one of the biggest challenges in modern times. Researchers from all over the world are trying to find ways to contribute and help in understanding COVID-19, from search engines to data set releases. Sebastian Ruder recently published a dedicated [issue](http://newsletter.ruder.io/issues/covid-19-edition-236509) of his newsletter highlighting a few interesting projects that AI researchers have been work on. -->
+
+- Ainda nesse assunto, pesquisadores do Allen AI irão discutir a agora base de dados *COVID-19 Open Research Dataset (CORD-19)* num [*meetup virtual*](https://www.meetup.com/NY-NLP/events/269849442) que acontecerá no final desse mês (27/04/2020).
+<!-- - On the topic of COVID-19, researchers at Allen AI will discuss the now popular COVID-19 Open Research Dataset (CORD-19) in a [virtual meetup](https://www.meetup.com/NY-NLP/events/269849442) happening towards the end of this month. -->
 
 
-- On the topic of COVID-19, researchers at Allen AI will discuss the now popular COVID-19 Open Research Dataset (CORD-19) in a [virtual meetup](https://www.meetup.com/NY-NLP/events/269849442) happening towards the end of this month.
+- A CORD-19 vêm sendo utilizada por muitos pesquisadores para a construção de aplicações impulsionadas por NLP, como ferramentas de busca. Confira esse [artigo recente](https://openreview.net/forum?id=PlUA_mgGaPq) para um exemplo de implementação dessas ferramentas que auxiliam pesquisadores a obter *insights* rápidos relacionados ao CORD-19 a partir de resultados reportados em artigos por especialistas. De acordo com os autores, tais ferramentas ajudam em tomadas de decisão baseadas em evidências.
+<!-- - The CORD-19 dataset is being used by many researchers to build NLP-powered applications such as search engines. Take a look at this recent [paper](https://openreview.net/forum?id=PlUA_mgGaPq) for an example of a search engine implementation that can help researchers obtain quick insights related to CORD-19 from results reported in scholarly articles. Such tools can help inform evidence-based decision making according to the authors. -->
 
-
-- The CORD-19 dataset is being used by many researchers to build NLP-powered applications such as search engines. Take a look at this recent [paper](https://openreview.net/forum?id=PlUA_mgGaPq) for an example of a search engine implementation that can help researchers obtain quick insights related to CORD-19 from results reported in scholarly articles. Such tools can help inform evidence-based decision making according to the authors.
-
-
-- ArCOV-19 is an Arabic COVID-19 Twitter dataset that covers the period from the 27th of January till the 31st of March 2020 (and still ongoing). It is the first publicly-available Arabic Twitter dataset covering the COVID-19 pandemic that includes around 748k popular tweets (according to Twitter search criterion) alongside the propagation networks of the most-popular subset of them. The propagation networks include both retweets and conversational threads (i.e., threads of replies). [ArCOV-19](https://gitlab.com/bigirqu/ArCOV-19) is designed to enable research under several domains including natural language processing, data science, and social computing, among others.
+- ArCOV-19 é uma base de dados de *tweets* em árabe sobre COVID-19, que cobre um período de 27 de janeiro até 31 de março de 2020 (e a coleta continua!). É a primeira base dados publicamente disponível do Twitter Árabe cobrindo a pandemia do COVID-19, onde estão inclusos cerca de 748K *tweets* populares (de acordo com o critério de busca do próprio Twitter) junto com as redes de propagação do sub-conjunto mais popular de postagens. As redes incluem tanto *retweets* quando *threads* de respostas.  [ArCOV-19](https://gitlab.com/bigirqu/ArCOV-19) é projetado para permitir a pesquisa em diversas áreas, como NLP, Ciência de Dados, Computadores e Sociedade, entre outras.
+<!-- - ArCOV-19 is an Arabic COVID-19 Twitter dataset that covers the period from the 27th of January till the 31st of March 2020 (and still ongoing). It is the first publicly-available Arabic Twitter dataset covering the COVID-19 pandemic that includes around 748k popular tweets (according to Twitter search criterion) alongside the propagation networks of the most-popular subset of them. The propagation networks include both retweets and conversational threads (i.e., threads of replies). [ArCOV-19](https://gitlab.com/bigirqu/ArCOV-19) is designed to enable research under several domains including natural language processing, data science, and social computing, among others. -->
 
 # Tools and Datasets ⚙️
 
