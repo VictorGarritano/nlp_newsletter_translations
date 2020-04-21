@@ -120,8 +120,10 @@ Pesquisadores da Allen AI publicaram um novo modelo baseado no *Transformer*, de
 
 # Criatividade, Ética e Sociedade 🌎
 
+\\
 ***Reprodutibilidade em ML***
 
+\\
 - A questão da reprodutibilidade vem sendo discutida ativamente pelas comunidades de aprendizado de máquina. Com o intuito de encorajar uma ciência mais aberta, transparente e acessível, diversos esforços vêm sendo realizados a favor dela. Se você quiser entender como está essa questão no campo de ML, confira essa [publicação](https://arxiv.org/abs/2003.12206) feita por Joelle Pineau, dentre outros.
 
 <!-- - Reproducibility has been an ongoing topic of discussion amongst the machine learning communities. In order to encourage more open, transparent and accessible science, there have been many efforts around reproducibility. If you want to understand where the field of machine learning stands in terms of reproducibility, check out this [publication](https://arxiv.org/abs/2003.12206) by Joelle Pineau and others. -->
@@ -188,24 +190,33 @@ Outro [artigo interessante](https://arxiv.org/abs/2004.06660), aceito na ACL 202
 - ArCOV-19 é uma base de dados de *tweets* em árabe sobre COVID-19, que cobre um período de 27 de janeiro até 31 de março de 2020 (e a coleta continua!). É a primeira base dados publicamente disponível do Twitter Árabe cobrindo a pandemia do COVID-19, onde estão inclusos cerca de 748K *tweets* populares (de acordo com o critério de busca do próprio Twitter) junto com as redes de propagação do sub-conjunto mais popular de postagens. As redes incluem tanto *retweets* quando *threads* de respostas.  [ArCOV-19](https://gitlab.com/bigirqu/ArCOV-19) é projetado para permitir a pesquisa em diversas áreas, como NLP, Ciência de Dados, Computadores e Sociedade, entre outras.
 <!-- - ArCOV-19 is an Arabic COVID-19 Twitter dataset that covers the period from the 27th of January till the 31st of March 2020 (and still ongoing). It is the first publicly-available Arabic Twitter dataset covering the COVID-19 pandemic that includes around 748k popular tweets (according to Twitter search criterion) alongside the propagation networks of the most-popular subset of them. The propagation networks include both retweets and conversational threads (i.e., threads of replies). [ArCOV-19](https://gitlab.com/bigirqu/ArCOV-19) is designed to enable research under several domains including natural language processing, data science, and social computing, among others. -->
 
-# Tools and Datasets ⚙️
+# Ferramentas e Bases de Dados ⚙️
 
+\\
 ***Machine Learning in Python: Main Developments and Technology Trends in Data Science, Machine Learning, and Artificial Intelligence***
-Not a tool or dataset per se, but this excellent [paper](https://www.mdpi.com/2078-2489/11/4/193) by Sebastian Raschka, Joshua Patterson, and Corey Nolet provides a comprehensive overview of some of the main developments in terms of technology trends in machine learning, particularly focused on the Python programming language.
+
+\\
+Mesmo não sendo uma ferramenta ou base de dados por si só, esse excelente [artigo](https://www.mdpi.com/2078-2489/11/4/193), com autoria de Sebastian Raschka, Joshua Patterson, e Corey Nolet, fornece uma visão geral compreensiva de alguns dos principais desenvolvimentos em termos de tendências tecnológicas em ML, com foco na linguagem de programação Python.
+
+<!-- Not a tool or dataset per se, but this excellent [paper](https://www.mdpi.com/2078-2489/11/4/193) by Sebastian Raschka, Joshua Patterson, and Corey Nolet provides a comprehensive overview of some of the main developments in terms of technology trends in machine learning, particularly focused on the Python programming language. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*OUpM4KS2uvT7zWlMYqy8RQ.png)
 
-*Figure by* [*Raschka et al. (2020)*](https://www.mdpi.com/2078-2489/11/4/193)
+*Figura extraída de* [*Raschka et al. (2020)*](https://www.mdpi.com/2078-2489/11/4/193)
 
 \\
-***Interpretability and Explainability in ML***
+***Interpretabilidade e Explicabilidade em ML***
 
 \\
-HuggingFace released a visualization tool called exBERT that allows you to visualize learned representations from language models such as BERT and RoBERTa. This feature was integrated into their [model pages](https://huggingface.co/models?filter=exbert) and aims at better understanding how language models are learning and what properties they are potentially encoding in these learned representations.
+A Hugging Face disponibilizou uma ferramenta de visualização denominada exBERT, que nos permite visualizar as representações aprendidas por modelos de linguagem como o BERT e RoBERTa. Essa funcionalidade foi integrada à [página de modelos]https://huggingface.co/models?filter=exbert), com o objetivo de prover um melhor entendimento sobre como os modelos de lingaugem estão aprendendo, assim como quais propriedades são potencialmente codificadas por eles nessas representações.
+
+<!-- HuggingFace released a visualization tool called exBERT that allows you to visualize learned representations from language models such as BERT and RoBERTa. This feature was integrated into their [model pages](https://huggingface.co/models?filter=exbert) and aims at better understanding how language models are learning and what properties they are potentially encoding in these learned representations. -->
 
 \\
-OpenAI recently released a web application called [Microscope](https://microscope.openai.com/models) that contains a collection of visualizations obtained from significant layers and neurons of various vision models that are often studied in the context of interpretability. The main objective is to allow ease of analysis and sharing of interesting insights that emerge from these features learned in the neural networks so as to better understand them.
+A OpenAI disponibilizou recentemente uma aplicação web chamada [Microscope](https://microscope.openai.com/models) que contém uma coleção de visualizações obtidas de camadas e neurônios de diversos modelos de visão computacional que são comumente estudados no contexto de interpretabilidade. O objetivo principal é facilitar a análise e compartilhamento de *insights* interessantes, obtidos a partir das características aprendidas pelas redes neurais, assim como viabilizar um melhor entendimento dos mesmos. 
+
+<!-- OpenAI recently released a web application called [Microscope](https://microscope.openai.com/models) that contains a collection of visualizations obtained from significant layers and neurons of various vision models that are often studied in the context of interpretability. The main objective is to allow ease of analysis and sharing of interesting insights that emerge from these features learned in the neural networks so as to better understand them. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*4VdcqSSyzWDMvVDPEuKzIQ.png)
@@ -214,23 +225,30 @@ OpenAI recently released a web application called [Microscope](https://microscop
 ***CloudCV: ViLBERT Multi-Task Demo***
 
 \\
-In the previous [NLP Research Highlights](https://dair.ai/NLP_Research_Highlights_-_Issue_-1/), we featured multitask ViLBERT which is a method for improving vision-and-language models that can be used for caption-based image retrieval and visual question answering (VQA). The authors now provide a [web application](https://vilbert.cloudcv.org/) to test the models on eight different vision and language tasks such as VQA and pointing question answering.
+No edição anterior da [NLP Research Highlights](https://dair.ai/NLP_Research_Highlights_-_Issue_-1/), nós apresentamos o ViLBERT multi-tarefas, que é um método para o aprimoramento de *vision-and-language models* que pode ser utilizado em recuperação de imagens baseada em descrições e *visual question answering (VQA)*. Agora, os autores disponibilizaram uma [aplicação web](https://vilbert.cloudcv.org/) para teste dos modelos em 8 tarefas diferentes de linguagem e visão computacional, como VQA e *pointing question answering*.
+
+<!-- In the previous [NLP Research Highlights](https://dair.ai/NLP_Research_Highlights_-_Issue_-1/), we featured multitask ViLBERT which is a method for improving vision-and-language models that can be used for caption-based image retrieval and visual question answering (VQA). The authors now provide a [web application](https://vilbert.cloudcv.org/) to test the models on eight different vision and language tasks such as VQA and pointing question answering. -->
 
 \\
 ***A Twitter Dataset of 150+ million tweets related to COVID-19 for open research***
 
 \\
-Due to the relevance of the COVID-19 global pandemic, researchers are releasing a [dataset](https://zenodo.org/record/3738018) of tweets acquired from Twitter related to COVID-19 chatter. Since the first release, additional data from new collaborators has been added, allowing this resource to grow to its current size. Dedicated data gathering started from March 11th yielding over 4 million tweets a day.
+Devido à relevância da pandemia global de COVID-19, pesquisadores estão disponibilizando uma [base de dados](https://zenodo.org/record/3738018) com *tweets* relacionados a doença. Desde a primeira versão disponibilizada, dados adicionais de novos colaborados foram adicionados, permitindo o crescimento da base até seu volume atual. A aquisição dedicada de dados começou em 11 de março, com mais de 4 milhões de *tweets* por dia.
+
+<!-- Due to the relevance of the COVID-19 global pandemic, researchers are releasing a [dataset](https://zenodo.org/record/3738018) of tweets acquired from Twitter related to COVID-19 chatter. Since the first release, additional data from new collaborators has been added, allowing this resource to grow to its current size. Dedicated data gathering started from March 11th yielding over 4 million tweets a day. -->
 
 \\
 ***A tiny autograd engine***
 
 \\
-Andrej Karpathy recently released a library called [micrograd](https://github.com/karpathy/micrograd) which provides the ability to build and train a neural network using a simple and intuitive interface. In fact, he wrote the whole library in roughly 150 lines of code which he claims is the tiniest autograd engine there is. Ideally, such types of libraries can be used for educational purposes.
+Andrej Karpathy disponibilizou recentemente uma biblioteca conhecida como [micrograd](https://github.com/karpathy/micrograd), que permite a construção e treinamento de redes neurais utilizando uma interface simples e intuitiva. Na verdade, ele escreveu a biblioteca completa com aproximadamente 150 linhas de código, o que, segundo ele, é a mais compacta ferramenta de diferenciação automática que existe. Idealmente, bibliotecas como essa podem ser utilizadas para fins educacionais.
+
+<!-- Andrej Karpathy recently released a library called [micrograd](https://github.com/karpathy/micrograd) which provides the ability to build and train a neural network using a simple and intuitive interface. In fact, he wrote the whole library in roughly 150 lines of code which he claims is the tiniest autograd engine there is. Ideally, such types of libraries can be used for educational purposes. -->
 
 
 # Articles and Blog posts ✍️
 
+\\
 ***The Transformer Family and Recent Developments***
 
 \\
