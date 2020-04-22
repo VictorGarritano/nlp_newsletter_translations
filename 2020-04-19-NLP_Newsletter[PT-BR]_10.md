@@ -312,24 +312,36 @@ Yisong Yue published publicou todas as vídeo-aulas para o curso [Data-Driven Al
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*8YFTbEPUw3Bqio70xP0WXQ.png)
 
-# Noteworthy Mentions ⭐️
-
-Get access to the previous issues of the NLP Newsletter [here](https://github.com/dair-ai/nlp_newsletter).
+# Menções Honrosas ⭐️
 
 \\
-Harvard is currently [offering](https://online-learning.harvard.edu/catalog?keywords=&paid%5B1%5D=1&max_price=&start_date_range%5Bmin%5D%5Bdate%5D=&start_date_range%5Bmax%5D%5Bdate%5D=) a great selection of self-paced courses for free.
+Acesse as edições anteriores da NLP Newsletter [aqui](https://github.com/dair-ai/nlp_newsletter) ([última edição em PT-BR]((https://github.com/dair-ai/nlp_newsletter))).
+
+<!-- Get access to the previous issues of the NLP Newsletter [here](https://github.com/dair-ai/nlp_newsletter). -->
 
 \\
-[ARBML](https://github.com/zaidalyafeai/ARBML) provides implementations of many Arabic NLP and ML projects providing real-time experience using many interfaces like web, command line and notebooks.
+Harvard está [oferecendo](https://online-learning.harvard.edu/catalog?keywords=&paid%5B1%5D=1&max_price=&start_date_range%5Bmin%5D%5Bdate%5D=&start_date_range%5Bmax%5D%5Bdate%5D=) uma ótima seleção de cursos *self-paced* de maneira gratuita.
+<!-- Harvard is currently [offering](https://online-learning.harvard.edu/catalog?keywords=&paid%5B1%5D=1&max_price=&start_date_range%5Bmin%5D%5Bdate%5D=&start_date_range%5Bmax%5D%5Bdate%5D=) a great selection of self-paced courses for free. -->
 
 \\
-[NLP Dashboard](https://nlpdashboard.com) is a fun NLP web app to perform named entity recognition and statistical analysis of text and news stories. Built using spaCy, Flask, and Python.
+[ARBML](https://github.com/zaidalyafeai/ARBML) fornece implementações de diversos projetos de NLP e ML para a língua árabe, incluindo experiências em tempo real utilizando diversas interfaces como a web, linha de comando e *notebooks*. 
+
+<!-- [ARBML](https://github.com/zaidalyafeai/ARBML) provides implementations of many Arabic NLP and ML projects providing real-time experience using many interfaces like web, command line and notebooks. -->
 
 \\
-If you haven’t checked it out, Connor Shorten maintains this really informative [YouTube channel](https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw?sub_confirmation=1) where he summarizes interesting and recent ML papers. He covers the important details of each work while providing excellent short and concise summaries. He also started a [podcast](https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ) with other great researchers and explainers in the field.
+[NLP Dashboard](https://nlpdashboard.com) é um aplicativo web de NLP interessante, que oferece Reconhecimento de Entidades Nomeadas e análises estatísticas de textos e notícias. Construída utilizando spaCy, Flask e Python.
+
+<!-- [NLP Dashboard](https://nlpdashboard.com) is a fun NLP web app to perform named entity recognition and statistical analysis of text and news stories. Built using spaCy, Flask, and Python. -->
 
 \\
-[Here](https://github.com/microsoft/nlp-recipes) is a rich and impressive repository that provides best practices and recommendations (via notebooks and explanations) for many NLP scenarios such as text classification, entailment, text summarization, question answering, etc.
+Caso você ainda não conheça, Connor Shorten maintains mantém um [canal no YouTube](https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw?sub_confirmation=1) bastante informativo, onde ele resume artigos de ML bem recentes e interessantes. São apresentados os detalhes importantes de cada trabalho através de um excelente e conciso resumo. Connor também começou um [podcast](https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ) com outros grandes pesquisadores e educadores da área.
+
+<!-- If you haven’t checked it out, Connor Shorten maintains this really informative [YouTube channel](https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw?sub_confirmation=1) where he summarizes interesting and recent ML papers. He covers the important details of each work while providing excellent short and concise summaries. He also started a [podcast](https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ) with other great researchers and explainers in the field. -->
+
+\\
+[Aqui](https://github.com/microsoft/nlp-recipes) está um repositório impressionante e bem completo que apresenta as melhoras práticas e recomendações (via *notebooks* e explicações) para diversos cenários de NLP, como classificação de texto, *entailment* (estabelecer relações lógicas, como implicação e contradição, entre textos), sumarização de texto, *question answering*, etc.
+
+<!-- [Here](https://github.com/microsoft/nlp-recipes) is a rich and impressive repository that provides best practices and recommendations (via notebooks and explanations) for many NLP scenarios such as text classification, entailment, text summarization, question answering, etc. -->
 
 ----------
 
