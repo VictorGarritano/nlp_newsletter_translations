@@ -264,13 +264,15 @@ A compressão de modelos é uma importante área de pesquisa em MLP, devido à n
 
 <!-- Model compression is an important area of research in NLP due to the nature and large size of pretrained language models. Ideally, as these models continue to produce state-of-the-art results across a wide variety of NLP tasks it becomes important to reduce their computational needs so as to make them feasible in production. Madison May recently published another excellent [article](https://www.pragmatic.ml/a-survey-of-methods-for-model-compression-in-nlp/) summarizing a few methods used for model compression, particularly in NLP. Some of the main topics include pruning, graph optimizations, knowledge distillation, progressive module replacement, among others. -->
 
-# Education 🎓
+# Educação 🎓
 
 \\
 ***Guest Lecture on Language Models by Alec Radford***
 
 \\
-If you are curious to know the theoretical aspect of methods used for learning language models such as CBOW, Word2Vec, ELMo, GPT, BERT, ELECTRA, T5, and GPT, then you might be interested in this great [guest lecture](https://www.youtube.com/watch?v=BnpB3GrpsfM) by Alec Radford (researcher at OpenAI). This was delivered as part of the ongoing [course](https://sites.google.com/view/berkeley-cs294-158-sp20/home) taught by Pieter Abbeel on deep unsupervised learning techniques.
+Se você tem interesse em conhecer os aspectos teóricos dos métodos utilizados para o aprendizado de modelos de linguagem como o CBOW, Word2Vec, ELMo, GPT, BERT, ELECTRA, T5 e GPT, então você deveria conferir essa excelente [aula](https://www.youtube.com/watch?v=BnpB3GrpsfM) do Alec Radford (pesquisador na OpenAI). Ela faz parte de um [curso em andamento](https://sites.google.com/view/berkeley-cs294-158-sp20/home), lecionado pelo Pieter Abbeel, sobre técnicas de aprendizado não-supervisionado com redes neurais profundas.
+
+<!-- If you are curious to know the theoretical aspect of methods used for learning language models such as CBOW, Word2Vec, ELMo, GPT, BERT, ELECTRA, T5, and GPT, then you might be interested in this great [guest lecture](https://www.youtube.com/watch?v=BnpB3GrpsfM) by Alec Radford (researcher at OpenAI). This was delivered as part of the ongoing [course](https://sites.google.com/view/berkeley-cs294-158-sp20/home) taught by Pieter Abbeel on deep unsupervised learning techniques. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*GUxoCXqhozkp_aaRxpT3Sg.png)
@@ -279,25 +281,33 @@ If you are curious to know the theoretical aspect of methods used for learning l
 ***Python Numpy Tutorial (with Jupyter and Colab)***
 
 \\
-Stanford’s popular online course on Convolutional Neural Network for Visual Recognition now includes a link to a Google Colab notebook for its [introductory guide](https://cs231n.github.io/python-numpy-tutorial/) to Numpy. It’s a very extensive walkthrough but it’s very nice for beginners.
+O popular curso online de Stanford, *Convolutional Neural Network for Visual Recognition* agora inclui um *link* para um notebook do Colab para o seu [guia introdutório](https://cs231n.github.io/python-numpy-tutorial/) ao NumPy, que apresenta um passo a passo extenso mas muito interessante para iniciantes. 
+
+<!-- Stanford’s popular online course on Convolutional Neural Network for Visual Recognition now includes a link to a Google Colab notebook for its [introductory guide](https://cs231n.github.io/python-numpy-tutorial/) to Numpy. It’s a very extensive walkthrough but it’s very nice for beginners. -->
 
 \\
 ***New mobile neural network architectures***
 
 \\
-Interested in building neural network architectures for mobile and edge devices, then this comprehensive [blog post](https://machinethink.net/blog/mobile-architectures/) may be for you. The article covers a range of neural network designs and includes speed performance tests.
+Interessado em construir arquiteturas de redes neurais para dispositivos móveis ou de borda? Então essa [postagem](https://machinethink.net/blog/mobile-architectures/) bem acessível pode te ajudar! O artigo cobre diversas configurações de redes e inclui testes de velocidade.
+
+<!-- Interested in building neural network architectures for mobile and edge devices, then this comprehensive [blog post](https://machinethink.net/blog/mobile-architectures/) may be for you. The article covers a range of neural network designs and includes speed performance tests. -->
 
 \\
 ***Data-Driven Sentence Simplification: Survey and Benchmark***
 
 \\
-Sentence simplification aims to modify a sentence in order to make it easier to read and understand. This [survey paper](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00370) focuses on approaches that attempt to learn how to simplify using corpora of aligned original-simplified sentence pairs in English, which is the dominant paradigm nowadays. It also includes a benchmark of different approaches on common data sets so as to compare them and highlight their strengths and limitations.
+A tarefa de *Sentence simplification* (simplificação de frases, numa tradução livre), possui a finalidade de modificar uma frase de modo a torná-la mais fácil de ler e entender. Essa [coletânea](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00370) foca em abordagens que tentam aprender a simplificar utilizando uma base de pares de sentenças em inglês, contendo as versões originais e simplificadas, que é um paradigma dominante nos dias atuais. Também está incluso um *benchmark* dos diferentes métodos em diversas bases de dados, para compará-los e destacar as pontos fortes e fracos de cada um deles.
+
+<!-- Sentence simplification aims to modify a sentence in order to make it easier to read and understand. This [survey paper](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00370) focuses on approaches that attempt to learn how to simplify using corpora of aligned original-simplified sentence pairs in English, which is the dominant paradigm nowadays. It also includes a benchmark of different approaches on common data sets so as to compare them and highlight their strengths and limitations. -->
 
 \\
-***Advanced Topics in Machine Learning***
+***Tópicos Avançados em Aprendizado de Máquina***
 
 \\
-Yisong Yue published all lecture videos for the [Data-Driven Algorithm Design](https://sites.google.com/view/cs-159-spring-2020/lectures?authuser=0) course. It contains advanced topics in machine learning that range from Bayesian optimization to differentiable computation to imitation learning.
+Yisong Yue published publicou todas as vídeo-aulas para o curso [Data-Driven Algorithm Design](https://sites.google.com/view/cs-159-spring-2020/lectures?authuser=0). Nesse curso, são cobertos tópicos de ML como otimização Bayesiana, computação diferenciável e *imitation learning*
+
+<!-- Yisong Yue published all lecture videos for the [Data-Driven Algorithm Design](https://sites.google.com/view/cs-159-spring-2020/lectures?authuser=0) course. It contains advanced topics in machine learning that range from Bayesian optimization to differentiable computation to imitation learning. -->
 
 \\
 ![](https://cdn-images-1.medium.com/max/800/1*8YFTbEPUw3Bqio70xP0WXQ.png)
@@ -323,7 +333,7 @@ If you haven’t checked it out, Connor Shorten maintains this really informativ
 
 ----------
 
-If you have any recent and complete datasets, projects, blog posts, tutorials, or papers that you wish to share in the next issue of the NLP Newsletter, please submit them directly using this [form](https://forms.gle/3b7Q2w2bzsXE6uYo9).
+Se você conhece bases de dados, projetos, postagens, tutoriais ou artigos que gostaria de ver na próxima edição da *Newsletter*, sinta-se a vontade para nos contactar através do e-mail ellfae@gmail.com ou de uma [mensagem direta no twitter](https://twitter.com/omarsar0).
 
 \\
-[*Subscribe*](https://dair.ai/newsletter/) *🔖 to the NLP Newsletter to receive future issues in your inbox.*
+[*Inscreva-se*](https://dair.ai/newsletter/) *🔖 para receber as próximas edições na sua caixa de entrada!*
