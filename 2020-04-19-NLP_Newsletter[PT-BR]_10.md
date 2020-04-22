@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "NLP Newsletter #10: Improving Reproducibility in ML, Privacy and Security in NLP, XTREME, Longformer, VilBERT, exBERT,…"
-author: billy_rick
-excerpt: "In this issue, we cover topics that range from best practices regarding language models to reproducibility in machine learning to privacy and security in natural language processing (NLP)."
+title: "NLP Newsletter #10: Aprimorando a reprodutibilidade em ML, Privacidade e Segurança em NLP, XTREME, Longformer, VilBERT, exBERT,…"
+author: VictorGarritano
+excerpt: "Nessa edição, são cobertos tópicos como melhores práticas envolvendo modelos de linguagem, reprodutibilidade em ML e privacidade e segurança no Processamento de Linguagem Natural (NLP)"
 modified:
 comments: true
 tags: [nlp_newsletter]
@@ -14,9 +14,9 @@ image:
 ![](https://cdn-images-1.medium.com/max/1200/1*WxbP3uKvd2GB6B-NaxtiIw.png)
 
 \\
+Seja muito bem-vindo à 10ª edição da NLP Newsletter. Nós esperamos que todos estejam bem e se mantendo seguros. Nessa edição cobre tópicos como melhores práticas envolvendo Modelos de Linguagem, reprodutibilidade em ML e privacidade e segurança em NLP.
 <!-- Welcome to the 10th issue of the NLP Newsletter. We hope you are well and staying safe. In this issue, we cover topics that range from best practices regarding language models to reproducibility in machine learning to privacy and security in natural language processing (NLP). -->
 
-Seja muito bem-vindo à 10ª edição da NLP Newsletter. Nós esperamos que todos estejam bem e se mantendo seguros. Nessa edição cobre tópicos como melhores práticas envolvendo Modelos de Linguagem, reprodutibilidade em ML e privacidade e segurança em NLP.
 
 # Atualizações da dar.ai 🔬🎓⚙️
 
